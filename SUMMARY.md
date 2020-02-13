@@ -93,33 +93,9 @@
 * [\#️⃣ 其他 Other](python-ji-chu-jiao-xue/qi-ta-other/README.md)
   * [註解](python-ji-chu-jiao-xue/qi-ta-other/zhu-jie.md)
 
-## 🚀 Python 演算法與資料結構
-
-* [0️⃣ 序 Overview](python-yan-suan-fa-yu-zi-liao-jie-gou/xu/README.md)
-  * [APCS 介紹](python-yan-suan-fa-yu-zi-liao-jie-gou/xu/apcs.md)
-* [1️⃣ 觀念題 C 語言解讀](python-yan-suan-fa-yu-zi-liao-jie-gou/guan-nian-ticyu-yan-jie-du/README.md)
-  * [觀念題 C 語言解讀](python-yan-suan-fa-yu-zi-liao-jie-gou/guan-nian-ticyu-yan-jie-du/guan-nian-ti-c-yu-yan-jie-du.md)
-  * [⚡ 練習：觀念題](python-yan-suan-fa-yu-zi-liao-jie-gou/guan-nian-ticyu-yan-jie-du/lian-xi-guan-nian-ti.md)
-* [2️⃣ 演算法概論 Algorithm](python-yan-suan-fa-yu-zi-liao-jie-gou/yan-suan-fa-yu-zi-liao-jie-gou.md)
-* [3️⃣ 複雜度 Complexity](python-yan-suan-fa-yu-zi-liao-jie-gou/fu-za-du/README.md)
-  * [⚡ 練習：觀念題](python-yan-suan-fa-yu-zi-liao-jie-gou/fu-za-du/lian-xi-guan-nian-ti.md)
-* [4️⃣ 排序 Sorting](python-yan-suan-fa-yu-zi-liao-jie-gou/pai-xu.md)
-* [5️⃣ 資料結構 Data Structure](python-yan-suan-fa-yu-zi-liao-jie-gou/nei-jian-zi-liao-jie-gou/README.md)
-  * [Priority Queue](python-yan-suan-fa-yu-zi-liao-jie-gou/nei-jian-zi-liao-jie-gou/priority-queue.md)
-* [6️⃣ 動態規劃 Dynamic Programming](python-yan-suan-fa-yu-zi-liao-jie-gou/dp.md)
-* [7️⃣ 貪婪法 Greedy](python-yan-suan-fa-yu-zi-liao-jie-gou/greedy/README.md)
-  * [cmp](python-yan-suan-fa-yu-zi-liao-jie-gou/greedy/cmp.md)
-  * [Priority queue](python-yan-suan-fa-yu-zi-liao-jie-gou/greedy/priority-queue.md)
-* [8️⃣ 搜尋 Search](python-yan-suan-fa-yu-zi-liao-jie-gou/binary-search/README.md)
-  * [二分搜尋法 Binary Search](python-yan-suan-fa-yu-zi-liao-jie-gou/binary-search/er-fen-sou-xun-fa-binary-search.md)
-* [9️⃣ 分治法 Divide & Conquer](python-yan-suan-fa-yu-zi-liao-jie-gou/divide-and-conquer.md)
-* [🔟 圖論 Graph](python-yan-suan-fa-yu-zi-liao-jie-gou/graph/README.md)
-  * [樹 Tree](python-yan-suan-fa-yu-zi-liao-jie-gou/graph/tree.md)
-* [\#️⃣ 模擬測驗](python-yan-suan-fa-yu-zi-liao-jie-gou/mo-ni.md)
-
 ## 🚫 Python 進階教學
 
 * [map\(\)](python-jin-jie-jiao-xue/map.md)
 * [Untitled](python-jin-jie-jiao-xue/untitled.md)
-* [版面設計](ban-mian-she-ji.md)
+* [版面設計原則](ban-mian-she-ji.md)
 
