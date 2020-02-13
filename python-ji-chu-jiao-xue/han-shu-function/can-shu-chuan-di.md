@@ -34,18 +34,21 @@ print(id(y))
 print(x is y)
 ```
 
-其實變數名稱只是一個指向物件的代稱
+### 其實變數名稱只是一個指向物件的代稱
 
-![](../../.gitbook/assets/23.gif)
+看下列的程式碼，`10`是一個物件，`x = 10`將 x 指向 10，而`y = x`則因為 x 指向的是 10，所以 y 也砌起指向 10，最後`x, y, 10`的`id`都是相同的。
 
 ```python
-print(id(10)); print()
+print(id(10))
+print()
 
 x = 10
 y = x
 print(id(x))
 print(id(y))
 ```
+
+![](../../.gitbook/assets/23.gif)
 
 ## 可變物件和不可變物件 Mutable v.s. Immutable
 
