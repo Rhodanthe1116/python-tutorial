@@ -87,7 +87,7 @@
   * [創造類別與實例](python-ji-chu-jiao-xue/lei-bie-class/chuang-zao-lei-bie-yu-shi-li.md)
   * [取用變數屬性](python-ji-chu-jiao-xue/lei-bie-class/qu-yong-bian-shu-shu-xing.md)
   * [方法 Method](python-ji-chu-jiao-xue/lei-bie-class/fang-fa-method.md)
-  * [類別初始化 Initialization](python-ji-chu-jiao-xue/lei-bie-class/lei-bie-chu-shi-hua-initialization.md)
+  * [建構子 Constructors](python-ji-chu-jiao-xue/lei-bie-class/lei-bie-chu-shi-hua-initialization.md)
   * [⚡ 練習：觀念題](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-guan-nian-ti.md)
   * [⚡ 練習：上機實作](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-shang-ji-shi-zuo/README.md)
     * [🐌 基礎](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-shang-ji-shi-zuo/ji-chu.md)

@@ -58,42 +58,63 @@ guugle.search("momo")
 
 在上例中，使用了創造了一個搜尋引擎`SearchEngine`類別，並有個search方法，需要傳入搜尋關鍵字term才能作用。注意此時term不用加self，以及在呼叫的時候也不用加self。
 
-## 💻練習
+## 💻🚧練習
 
 {% hint style="info" %}
+下方是一個可以儲存杯子的系統，這個系統現在需要一個新增杯子的功能，並在要在每次新增成功後印出目前全部的杯子，現在需要你來完成這個系統。
 
-
-* [ ] 將下列程式碼中new\_song的name, artist, album, year設定成任何你想要的
-* [ ] 輸出四個變數
+* [ ] 定義add\_cup方法，需要接收id, size兩個參數
+* [ ] 將杯子存成字典new\_cup中，參考cup\_list
+* [ ] 在add\_cup中，將新的杯子存放到cup\_list中
+* [ ] 印出cup\_list
+* [ ] 在主程式放入三個杯子，分別是\(1, "M"\), \(2, "M"\), \(3, "L"\) 
 {% endhint %}
 
 {% tabs %}
 {% tab title="First Tab" %}
 ```python
-class bikeDatabase:
-    name = "song name"
-    artist = "artist name"
-    album = "album name"
-    year = 9999
-    
-new_song = Song()
+class CupDatabase:
+    cup_list = [
+        {
+            "id": 999,
+            "size": "S"
+        }
+    ]
+      
+    # Your code here
+
+U_cup = CupDatabase()
+
+# Your code here
+
 ```
 {% endtab %}
 
 {% tab title="參考答案" %}
 ```python
-class Song:
-    name = "song name"
-    artist = "artist name"
-    album = "album name"
-    year = 9999
-    
-new_song = Song()
+class CupDatabase:
+    cup_list = [
+        {
+            "id": 999,
+            "size": "S"
+        }
+    ]
 
-print(new_song.name)
-print(new_song.artist)
-print(new_song.album)
-print(new_song.year)
+    def add_cup(self, id, size):
+        new_cup = {
+            "id": id,
+            "size": size
+        }
+        self.cup_list.append(new_cup)
+        print("---Cup List---")
+        print(self.cup_list)
+        print("--------------")
+        print()
+
+U_cup = CupDatabase()
+U_cup.add_cup(1, "M")
+U_cup.add_cup(2, "M")
+U_cup.add_cup(3, "L")
 ```
 {% endtab %}
 {% endtabs %}
