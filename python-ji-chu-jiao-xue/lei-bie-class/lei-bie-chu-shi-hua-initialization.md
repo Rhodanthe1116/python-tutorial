@@ -1,6 +1,24 @@
 # 建構子 Constructors
 
-`Charactor()`回傳一個創造出的物件，若是我們想在創造物件的同時執行一些動作或給他一些參數，比如發出通知訊息或給人物設定一些初始素質，可以在類別裡面定義以下初始函數：
+在之前的教學中，學到可以在類別中定義函數。這邊要介紹一個特別的方法，稱作「\_\_init\_\_\(\)」，可以用來初始化 initialize 物件，而且這個方法只會執行一次，只會在物件第一次被創造的時候執行。
+
+{% hint style="info" %}
+初始化的意思類似於歸零重來，或將系統恢復成剛開始的樣子
+{% endhint %}
+
+```python
+class Charactor:
+    def __init__(self):
+        print("Successfully created a new Charactor!")
+    hp = 100
+
+# __init__() called
+user = Charactor()
+
+print(user.hp)
+```
+
+上例中的\_\_init\_\_\(\)便是初始化函數，在一般物件導向的程式語言中也稱作**建構子**。他在第7行的時候在呼叫Charactor\(\)的時候會跟著執行。
 
 ### \_\_init\_\_\(\) Function
 
