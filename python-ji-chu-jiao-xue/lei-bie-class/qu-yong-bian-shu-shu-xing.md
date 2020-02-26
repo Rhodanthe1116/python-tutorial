@@ -1,50 +1,60 @@
-# 取用變數屬性
+# 實例變數 Instance Variable
 
-在前個部分，創造出了一個類別與實例，也為他設定了屬性，但實際要如何使用呢？其實大致就跟一般使用變數一樣，只要利用`.`來表明屬性是屬於哪個物件的即可：
-
-```python
-class Charactor:
-     hp = 100
-
-new_charactor = Charactor()
-
-# new_charactor.hp
-print(new_charactor.hp)
-# 100
-```
-
-在class的定義中，將定義了hp這個變數，並將其值設為100，而在new\_charactor時便會自動擁有這個變數，之後在程式中，若要使用這個變數，只要使用`.`來取得即可。使用方法與一般變數相同，設值也是：
+類別與實例必須要區分開來，類別是模板，而實例是類別的具體化，但為什麼需要區分呢？因為每個實例可以擁有他特有的**實例變數 Instance Variable**，且只有在實例被實例化之後才會存在，例如：
 
 ```python
-new_charactor.hp = 50
-print(new_charactor.hp)
-# 50
+class Circle:
+  # pi is a class variable
+  pi = 3.14
+  def __init__(self, diameter):
+    print("Creating circle with diameter {d}".format(d=diameter))
+    # radius is a instance variable
+    self.radius = diameter / 2
+    
+small_circle = Circle(5)
+big_circle = Circle(1000)
 ```
 
-#### 不同的實例不共用屬性
+在上例中，圓周率是所有圓共有的，而半徑則是每個圓所不同的。
 
-假如今天有兩個實例，若做以下操作：
+相較於類別變數是所有類別實例所共有，實例變數可以只存在於特定變數：
 
 ```python
-class Charactor:
-     hp = 100
+class Circle:
+  pi = 3.14
 
-charactor_1 = Charactor()
-charactor_2 = Charactor()
+# Initialization
+red_circle = Circle()
+big_circle = Circle()
 
-charactor_1.hp = 70
-
-print(charactor_1.hp)
-print(charactor_2.hp)
-# 70
-# 100
+# Color and radius are both instance variables
+red_circle.color = "red"
+hollow_circle.type = "hollow"
 ```
 
-可以發現兩者的hp不一樣，因為每個實例顯然需要是獨立的。
+在上例中，紅圓有color屬性，而空心圓有type屬性，兩個屬性都是圓所沒有的，兩者都是實例變數，在成為實例之後才出現的。
 
-{% hint style="info" %}
-試著創造一個學生Class，為其設定「名字」跟「號碼」兩個屬性。
-{% endhint %}
+## 類別變數與實例變數
+
+傳統上，會將每個實例共有且不會改變的性質設為類別變數，而每個實例都不同的性質設為實例變數，通常在初始化的時候進行實例變數的設值，來減少程式碼的重複。
+
+但若是執行下列程式：
+
+```python
+class Circle:
+  # Default color is red.
+  color = "red"
+
+red_circle = Circle()
+green_circle = Circle()
+
+# Overide the default color which is a class variable
+green_circle.color = "green"
+```
+
+上列程式碼有個圓，並且有個color類別變數，但在第9行的地方，用了實例變數的方式設了值，這時候實例變數會覆蓋類別變數，讓green\_circle.color變成實例變數，一個獨特的屬性。
+
+因為類別變數與實例變數的取用方式一樣，都是用`.`，所以以上程式碼不會發生任何錯誤。
 
 ## 💻練習
 
@@ -57,9 +67,9 @@ print(charactor_2.hp)
 {% tab title="First Tab" %}
 ```python
 class Song:
-    name = "song name"
-    artist = "artist name"
-    album = "album name"
+    name = ""
+    artist = ""
+    album = ""
     year = 9999
     
 new_song = Song()

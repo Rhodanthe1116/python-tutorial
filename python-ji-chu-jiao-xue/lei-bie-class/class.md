@@ -26,7 +26,26 @@ print(type(my_list))
 試著印出string和dictionary的type
 {% endhint %}
 
+## 創造類別 Create a Class
 
+Class 可以幫助我們創造物件的模板或原型
 
+```python
+class Charactor:
+    hp = 100
+```
 
+上方利用`class`創造出一個叫`Charactor`的自訂資料型態，我們可以在裡面加上`hp`這個**屬性（attrtibute, property）**，或可稱**成員變數（member variable）**。屬性可以有很多個，例如也可以在角色身上增加mp：
+
+```python
+class Charactor:
+    hp = 100
+    mp = 50
+```
+
+{% hint style="info" %}
+Magic point，常簡寫為「MP」，或稱「Mana」
+{% endhint %}
+
+注意在這裡我們只是撰寫模板，Charactor並不能當作變數使用，應該當成資料型態來看，所以我們不能直接對Charactor做操作，就像我們不會直接用int當變數名稱一樣。若要使用Charactor，我們需要創造出一個類別實例。
 

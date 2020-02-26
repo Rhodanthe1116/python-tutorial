@@ -4,37 +4,32 @@
 
 ```python
 class Student:
-    energy = 100
-    
+    school = "XXXXX High School"
     def go_to_school(self):
-        self.energy -= 100
-        print("I don't want to go to school!")
-        print("I have {} energy".format(self.energy))
+        print("I don't want to go to the {}!".format(self.school))
         
 benson = Student()
 benson.go_to_school()
-# I don't want to go to school!
-# I have 0 energy
+# I don't want to go to the XXXXX High School!
 ```
 
 看完後，可能會發現self這個陌生的詞，不過似乎也不影響猜測其功能。在這個例子中，創造了Student類別，並在裡面定義了go\_to\_school方法，於是第9行便可呼叫Benson中的go\_to\_school方法，印出以上結果。需要注意的是，方法必定要有一個self參數，self代表的是呼叫此方法的物件，也就是說，benson.go\_to\_school\(\)類似於go\_to\_school\(benson\)，而self接收便是benson。這也就是為什麼benson.go\_to\_school\(\)不用放任何參數的原因，因為它會自動將benson放進去。
 
-另外，如果需要在方法中使用成員變數的話，也要用self來指名，否則都會出錯。
+另外，如果需要在方法中使用class variable的話，也要用self來指名，否則都會出錯。
 
+{% hint style="danger" %}
 ```python
 class Student:
-    energy = 100
-    
+    school = "XXXXX High School"
     def go_to_school(self):
-        energy -= 100
-        print("I don't want to go to school!")
-        print("I have {} energy".format(energy))
+        # Error occur
+        print("I don't want to go to the {}!".format(school))
         
 benson = Student()
 benson.go_to_school()
-# UnboundLocalError: local variable 'energy' referenced before assignment
-
+# NameError: name 'school' is not defined
 ```
+{% endhint %}
 
 ## 有參數的方法
 
