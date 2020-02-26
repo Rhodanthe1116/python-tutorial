@@ -91,10 +91,7 @@
   * [實例變數 Instance Variable](python-ji-chu-jiao-xue/lei-bie-class/qu-yong-bian-shu-shu-xing.md)
   * [物件導向程式 Object-Oriented Programming](python-ji-chu-jiao-xue/lei-bie-class/wu-jian-dao-xiang-cheng-shi-objectoriented-programming.md)
   * [⚡ 練習：觀念題](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-guan-nian-ti.md)
-  * [⚡ 練習：上機實作](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-shang-ji-shi-zuo/README.md)
-    * [🐌 基礎](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-shang-ji-shi-zuo/ji-chu.md)
-    * [🐱‍🏍 進階](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-shang-ji-shi-zuo/jin-jie.md)
-    * [✨ Bonus!](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-shang-ji-shi-zuo/bonus.md)
+  * [⚡ 練習：上機實作](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-shang-ji-shi-zuo.md)
 * [\#️⃣ 其他 Other](python-ji-chu-jiao-xue/qi-ta-other/README.md)
   * [註解](python-ji-chu-jiao-xue/qi-ta-other/zhu-jie.md)
 
