@@ -1,23 +1,6 @@
 # 實例變數 Instance Variable
 
-類別與實例必須要區分開來，類別是模板，而實例是類別的具體化，但為什麼需要區分呢？因為每個實例可以擁有他特有的**實例變數 Instance Variable**，且只有在實例被實例化之後才會存在，例如：
-
-```python
-class Circle:
-  # pi is a class variable
-  pi = 3.14
-  def __init__(self, diameter):
-    print("Creating circle with diameter {d}".format(d=diameter))
-    # radius is a instance variable
-    self.radius = diameter / 2
-    
-small_circle = Circle(5)
-big_circle = Circle(1000)
-```
-
-在上例中，圓周率是所有圓共有的，而半徑則是每個圓所不同的。
-
-相較於類別變數是所有類別實例所共有，實例變數可以只存在於特定變數：
+類別與實例必須要區分開來，類別是模板，而實例是類別的具體化，但為什麼需要區分呢？因為每個實例可以擁有他特有的**實例變數 Instance Variable**，且只有在實例被實例化之後才會存在，相較於類別變數是所有類別實例所共有，實例變數可以只存在於特定變數，例如：
 
 ```python
 class Circle:

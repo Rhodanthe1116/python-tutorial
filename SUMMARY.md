@@ -89,7 +89,7 @@
   * [方法 Method](python-ji-chu-jiao-xue/lei-bie-class/fang-fa-method.md)
   * [建構子 Constructors](python-ji-chu-jiao-xue/lei-bie-class/lei-bie-chu-shi-hua-initialization.md)
   * [實例變數 Instance Variable](python-ji-chu-jiao-xue/lei-bie-class/qu-yong-bian-shu-shu-xing.md)
-  * [實例變數](python-ji-chu-jiao-xue/lei-bie-class/shi-li-bian-shu.md)
+  * [物件導向程式 Object-Oriented Programming](python-ji-chu-jiao-xue/lei-bie-class/wu-jian-dao-xiang-cheng-shi-objectoriented-programming.md)
   * [⚡ 練習：觀念題](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-guan-nian-ti.md)
   * [⚡ 練習：上機實作](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-shang-ji-shi-zuo/README.md)
     * [🐌 基礎](python-ji-chu-jiao-xue/lei-bie-class/lian-xi-shang-ji-shi-zuo/ji-chu.md)
