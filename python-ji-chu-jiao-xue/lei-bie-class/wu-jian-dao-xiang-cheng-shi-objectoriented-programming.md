@@ -6,14 +6,14 @@
 class Circle:
   pi = 3.14
   def __init__(self, diameter):
-    # Self is an object. Radius is a instance variable 
+    # Self refers to the object. Radius is a instance variable 
     self.radius = diameter / 2
   
 small_circle = Circle(12)
 big_circle = Circle(11460)
 ```
 
-在上例中，self可能是small\_circle或big\_circle，不管怎樣，self都是實例物件，因此radius都是實例變數。
+在上例中，`self`可能是`small_circle`或`big_circle`，不管怎樣，`self`都是實例，因此`radius`都是實例變數。
 
 若是搭配所有介紹過的功能，便可實現出物件導向的好處：
 
@@ -39,7 +39,7 @@ print(teaching_table.circumference())
 print(round_room.circumference())
 ```
 
-在上例中，定義了圓這個類別，利用了此類別創造了三個實例，美個實例有不同的半徑，同時也可以用相同的圓周長方法來取得周長。
+在上例中，定義了圓Circle這個類別，利用了此類別創造了三個實例`medium_pizza`, `teaching_table`, `round_room` ，每個實例有不同的半徑`radius`，同時也可以用相同的圓周長方法`circumference()`來取得周長。
 
-如此一來，不僅可以維持資料的結構，也可以有效地重複利用定義的類別。
+如此一來，不僅可以維持資料的結構，也可以有效地重複利用定義的類別。不斷地累積功能，便可製成一個完整的物件。
 
