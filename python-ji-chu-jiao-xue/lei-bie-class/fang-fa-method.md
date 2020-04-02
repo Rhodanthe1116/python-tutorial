@@ -1,21 +1,23 @@
 # 方法 Method
 
-定義在類別裡面的函數function，稱作方法method。就像可以在類別裡面定義變數，同樣地也可以在類別裡面定義函數，需要注意的是，通常會將類別中的函數稱作方法method，實際上的功能與使用方法與函數類似。先看看下列包含了方法的程式碼：
+定義在類別裡面的函數function，稱作**方法method**。就像可以在類別裡面定義變數，同樣地也可以在類別裡面定義函數，需要注意的是，通常會將類別中的函數稱作方法method，實際上的功能與使用方法與函數類似。先看看下列包含了方法的程式碼：
 
 ```python
 class Student:
     school = "XXXXX High School"
+    # A function in class is called Method.
     def go_to_school(self):
         print("I don't want to go to the {}!".format(self.school))
         
 benson = Student()
+# Call the method via "object.method()" 
 benson.go_to_school()
 # I don't want to go to the XXXXX High School!
 ```
 
-看完後，可能會發現self這個陌生的詞，不過似乎也不影響猜測其功能。在這個例子中，創造了Student類別，並在裡面定義了go\_to\_school方法，於是第9行便可呼叫Benson中的go\_to\_school方法，印出以上結果。需要注意的是，方法必定要有一個self參數，self代表的是呼叫此方法的物件，也就是說，benson.go\_to\_school\(\)類似於go\_to\_school\(benson\)，而self接收便是benson。這也就是為什麼benson.go\_to\_school\(\)不用放任何參數的原因，因為它會自動將benson放進去。
+看完後，可能會發現`self`這個陌生的詞，不過似乎也不影響猜測其功能。在這個例子中，創造了`Student`類別，並在裡面定義了`go_to_school`方法，於是第9行便可呼叫`benson`中的`go_to_school`方法，印出以上結果。需要注意的是，方法必定要有一個self參數，`self`代表的是呼叫此方法的物件，也就是說，`benson.go_to_school()`類似於`go_to_school(benson)`，而`self`接收便是`benson`。這也就是為什麼be`nson.go_to_school()不`用放任何參數的原因，因為它會自動將`benson`放進去。
 
-另外，如果需要在方法中使用class variable的話，也要用self來指名，否則都會出錯。
+另外，如果需要在方法中使用class variable的話，也要用`self`來指名，否則都會出錯。
 
 {% hint style="danger" %}
 ```python
@@ -29,6 +31,8 @@ benson = Student()
 benson.go_to_school()
 # NameError: name 'school' is not defined
 ```
+
+在方法中沒有使用`self.school`
 {% endhint %}
 
 ## 有參數的方法
@@ -51,18 +55,18 @@ guugle.search("momo")
 # Search results about momo
 ```
 
-在上例中，使用了創造了一個搜尋引擎`SearchEngine`類別，並有個search方法，需要傳入搜尋關鍵字term才能作用。注意此時term不用加self，以及在呼叫的時候也不用加self。
+在上例中，使用了創造了一個搜尋引擎`SearchEngine`類別，並有個`search()`方法，需要傳入搜尋關鍵字`term`才能作用。注意此時`term`不用加`self`，以及在呼叫的時候也不用加`self`，因為`term`不是物件的屬性。
 
-## 💻🚧練習
+## 💻練習
 
 {% hint style="info" %}
 下方是一個可以儲存杯子的系統，這個系統現在需要一個新增杯子的功能，並在要在每次新增成功後印出目前全部的杯子，現在需要你來完成這個系統。
 
-* [ ] 定義add\_cup方法，需要接收id, size兩個參數
-* [ ] 將杯子存成字典new\_cup中，參考cup\_list
-* [ ] 在add\_cup中，將新的杯子存放到cup\_list中
-* [ ] 印出cup\_list
-* [ ] 在主程式放入三個杯子，分別是\(1, "M"\), \(2, "M"\), \(3, "L"\) 
+* [ ] 定義`add_cup()`方法，需要接收`id`, `size`兩個參數
+* [ ] 將杯子存成字典`new_cup`中，參考`cup_list`
+* [ ] 在`add_cup`中，將新的杯子存放到`cup_list`中
+* [ ] 印出`cup_list`
+* [ ] 在主程式放入三個杯子，`(id, size)`分別是`(1, "M")`, `(2, "M")`, `(3, "L")` 
 {% endhint %}
 
 {% tabs %}
