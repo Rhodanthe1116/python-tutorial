@@ -64,6 +64,41 @@ for i in range(5):
     print()
 ```
 
+1
+
+```text
+A ***
+A ***
+A ***
+A ***
+A ***
+```
+
+2
+
+```text
+A **
+A **
+A **
+A **
+A **
+```
+
+3
+
+```text
+A 
+***
+A 
+***
+A 
+***
+A 
+***
+A 
+***
+```
+
 ## 下列程式碼會輸出什麼？
 
 ```python
@@ -86,6 +121,35 @@ print(x)
 x = 5
 while x < 10:
     print("YES! YES! YES! YES!")
+```
+
+1
+
+```text
+YES! YES! YES! YES!
+```
+
+2
+
+```text
+YES! YES! YES! YES!
+YES! YES! YES! YES!
+YES! YES! YES! YES!
+YES! YES! YES! YES!
+YES! YES! YES! YES!
+```
+
+3
+
+```text
+YES! YES! YES! YES!
+YES! YES! YES! YES!
+YES! YES! YES! YES!
+YES! YES! YES! YES!
+YES! YES! YES! YES!
+YES! YES! YES! YES!
+YES! YES! YES! YES!
+...無限多個
 ```
 
 ## 上題迴圈稱作什麼？

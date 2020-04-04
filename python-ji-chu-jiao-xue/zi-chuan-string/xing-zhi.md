@@ -1,5 +1,21 @@
 # String
 
+| 名稱 | 常見代稱 | 介紹 |
+| :--- | :--- | :--- |
+| **字串（String）** | `str` | 也就是一段文字。例如：`"hello, world"`，注意必須用雙引號`"`包起來。也可以用單引號`'`包起來，比如說`'hello, world'` |
+
+範例如下：
+
+```python
+str1 = "hello, world"
+str2 = 'hello, world'
+
+print(str1)
+print(str2)
+```
+
+以上兩種都是字串
+
 ## 多行字串
 
 ```python

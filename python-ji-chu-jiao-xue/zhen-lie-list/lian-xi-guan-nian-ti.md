@@ -21,16 +21,22 @@
 ## 假設有一個 List:
 
 ```python
+
+
 a = ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
+
+
 ```
 
-以下哪些輸出結果是正確的？
+以下哪個指令與輸出結果是相吻合的？
 
 1. ```python
    >>> print(a[-6])
+
    Traceback (most recent call last):
      File "<stdin>", line 1, in <module>
    IndexError: list index out of range  
+
    ```
 2. ```python
    >>> a[:] is a
@@ -38,6 +44,8 @@ a = ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
    ```
 3. ```python
    >>> print(a[4::-2])
+
+
    ['quux', 'baz', 'foo']
    ```
 
