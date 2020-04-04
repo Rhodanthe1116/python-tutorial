@@ -1,20 +1,33 @@
-# String Format
+# String Format 字串格式化
 
-{% hint style="danger" %}
-## X
+之前都會用+來連接字串，但如果要內插變數的話，便很不方便，如下：
 
+{% hint style="warning" %}
 ```python
-age = 36
-print("My name is John, I am " + age)
+age = "36"
+print("My name is John, and I am " + age + ".")
 ```
 {% endhint %}
 
-{% hint style="success" %}
-## O
+甚至不能合併非字串：
 
+{% hint style="danger" %}
+```python
+# age is integer
+age = 36
+print("My name is John, and I am " + age + ".")
+# TypeError: can only concatenate str (not "int") to str
+```
+{% endhint %}
+
+在此介紹比較好的方法，叫做**字串格式化**，在有些語言中也稱作**內插（interpolation）**
+
+## 字串格式化
+
+{% hint style="success" %}
 ```python
 age = 36
-print("My name is John, and I am {}".format(age))
+print("My name is John, and I am {}.".format(age))
 ```
 {% endhint %}
 

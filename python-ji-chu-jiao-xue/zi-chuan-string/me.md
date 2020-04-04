@@ -3,8 +3,8 @@
 ## 分割 split\(\)
 
 ```python
-str = "1 2 3 4 5"
-print(str.split())
+str1 = "1 2 3 4 5"
+print(str1.split())
 ```
 
 存進 list：

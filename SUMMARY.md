@@ -48,7 +48,7 @@
 * [6️⃣ 字串 String](python-ji-chu-jiao-xue/zi-chuan-string/README.md)
   * [String](python-ji-chu-jiao-xue/zi-chuan-string/xing-zhi.md)
   * [String 處理](python-ji-chu-jiao-xue/zi-chuan-string/me.md)
-  * [String Format](python-ji-chu-jiao-xue/zi-chuan-string/string-format.md)
+  * [String Format 字串格式化](python-ji-chu-jiao-xue/zi-chuan-string/string-format.md)
   * [符號編碼：文字與數字的關係](python-ji-chu-jiao-xue/zi-chuan-string/fu-hao-bian-ma-wen-zi-yu-shu-zi-de-guan-xi.md)
   * [⚡ 練習：觀念題](python-ji-chu-jiao-xue/zi-chuan-string/lian-xi-guan-nian-ti.md)
   * [⚡ 練習：上機實作](python-ji-chu-jiao-xue/zi-chuan-string/shang-ji-shi-zuo/README.md)
