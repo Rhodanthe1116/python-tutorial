@@ -51,7 +51,7 @@
 ## 若要在一行同時輸入3個變數，該如何使用？
 
 1. `x, y, z = input(), input(), input()`
-2. `x, y, z = input()`
+2. `x, y, z = input().split()`
 3. `x = input() y = input() z = input()`
 
 ## x = x // 3 等同於
