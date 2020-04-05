@@ -154,7 +154,42 @@ YES! YES! YES! YES!
 
 ## 上題迴圈稱作什麼？
 
+## 期中
 
+請問下列程式輸出為何？
+
+```python
+x = 0
+for i in range(n):
+    for j in range(n):
+        k = 1
+        while k <= n:
+            x = x + 1
+            k *= 2
+print(x)
+```
+
+1. n\(n+1\)√⌊log2 𝑛⌋
+2. n2\(n+1\)/2
+3. **n\(n+1\)⌊log2n + 1⌋/2**
+4. n\(n+1\)/2
+
+請問執行下列程式的時候，哪一行可能永遠不會被執行到
+
+```python
+a = input()
+while a < 10:
+    a = a + 5
+if a < 12:
+    a = a + 2
+if a <= 11:
+    a = 5
+```
+
+1. a = a + 5
+2. a = a + 2
+3. **a = 5**
+4. 每一行都執行得到
 
 
 

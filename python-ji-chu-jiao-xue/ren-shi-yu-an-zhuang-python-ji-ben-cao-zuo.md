@@ -68,7 +68,7 @@ print("hello, world")
 
 送出解答，貼上程式碼
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 ![](../.gitbook/assets/image.png)
 

@@ -108,5 +108,42 @@ bool1 = True
 bool1 = False
 ```
 
-## 
+## 命名規則
+
+變數的命名有一些規則：
+
+* 允許字母及數字`a-z`, `A-z`, `0-9` 和`_` , 但是開頭必須是字母
+* 變數區分大小寫
+* 變數長度沒有限制
+
+## 命名傳統
+
+Python有一些命名傳統，主要是遵照PEP8：
+
+{% embed url="https://www.python.org/dev/peps/pep-0008/" %}
+
+目前不需要去讀文件，只需要知道以下：
+
+* 如果變數名稱大於是多字節的話，採用小寫字母搭配底線\(lower\_case\_with\_underscores\)
+
+{% hint style="success" %}
+正確
+
+```python
+my_name = "benson"
+```
+{% endhint %}
+
+{% hint style="danger" %}
+錯誤
+
+```text
+myName = "benson"
+MyName = "benson"
+```
+{% endhint %}
+
+## 變數在電腦中的儲存方法
+
+變數是儲存在電腦的記憶體中。記憶體就像人的短期記憶，當程式執行完，記憶體便會被釋放，不像一般資料是儲存在硬碟裡，這也就是為什麼，我們在編輯文件的時候，如果沒有存檔，紀錄就會不見，那是因為我們還沒有把資料從記憶體轉入到硬碟中。
 

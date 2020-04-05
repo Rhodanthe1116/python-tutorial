@@ -60,5 +60,39 @@
 2. `x / 3`
 3. `x //= 3`
 
+## 期中題庫
 
+下列哪一項不是合法的Python變數名稱？
+
+1. home\_address
+2. 4square
+3. route66
+4. Age
+
+下列哪一項是PEP8所推薦使用的變數命名規則？
+
+1. DistanceToNearestTown
+2. distance\_to\_nearest\_town
+3. distanceToNearestTown
+
+若 a, b, c, d, e 均為整數變數，下列哪個算式計算結果與 a+b\*c-e 計算結果相同？APCS1060304
+
+1. \(\(\(a+b\)\*c\)-e\)
+2. \(\(a+b\)\*\(c-e\)\)
+3. \(\(a+\(b\*c\)\)-e\)
+4. \(a+\(\(b\*c\)-e\)\)
+
+程式執行時，程式中的變數值是存放在
+
+1. 記憶體
+2. 硬碟
+3. 輸出入裝置
+4. 匯流排
+
+若有三變數a, b, c，下列那個程式片段可以將a 和 b的內容交換？
+
+1. a = b, b = a
+2. c = a, a = b, b = c
+3. b = a, c = b, a = c
+4. 以上皆可
 

@@ -37,5 +37,36 @@ print(my_string.split())
 [1, 2, 3, 4, 5]
 ```
 
+## 期中
 
+執行後，輸出為何？
+
+```python
+item = ['2', '8', '3', '1', '9']
+
+count = 5
+
+for a in range(count-1):
+    c = a
+    t = item[a]
+    for b in range(a+1, count):
+        if (item[b] < t):
+            c = b
+            t = item[b]
+        if ((a == 2) and (b == 3)):
+            print(t, c)
+
+```
+
+1. 1 2
+2. **1 3**
+3. 3 2
+4. 3 3
+
+若一字串str = "Hello world!0"，則str\[12\]等於多少？本題並沒有錯字或多打字
+
+1. 未宣告
+2. **0**
+3. !
+4. \n
 
