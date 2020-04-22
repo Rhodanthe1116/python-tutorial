@@ -6,7 +6,7 @@
 2. 'hello'
 3. hello
 
-## 下列何者可以正確表示字串中的第一個字？
+## 下列何者可以正確表示字串中的第一個字元？
 
 1. str\[0\]
 2. str.sub\(0, 1\)
@@ -36,6 +36,21 @@ print(my_string.split())
 ```text
 [1, 2, 3, 4, 5]
 ```
+
+## 下列程式將輸出什麼？
+
+```python
+char = 'a'
+char = ord(char)
+char += 2
+char = chr(char)
+print(char)
+```
+
+1. **c**
+2. a2
+3. 99
+4. a 2
 
 ## 期中
 
@@ -69,4 +84,23 @@ for a in range(count-1):
 2. **0**
 3. !
 4. \n
+
+### 請問右側程式，執行完後輸出為何？
+
+```python
+i = 2
+x = 3
+N = 65536
+
+while i <= N:
+    i = i * i * i
+    x = x + 1
+
+print('{} {}'.format(i, x))
+
+```
+
+### 
+
+
 

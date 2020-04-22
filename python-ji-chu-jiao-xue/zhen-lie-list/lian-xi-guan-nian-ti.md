@@ -61,7 +61,7 @@ a = ['a', 'b', 'c']
 ['a', 'b', 'c', 'd', 'e']
 ```
 
-則下列哪幾項是正確的？
+則下列哪幾項是不正確的？
 
 1. ```python
    a.extend(['d', 'e'])
@@ -132,7 +132,83 @@ for i in range(int(n/2) + 1):
 3. **1 2 3 4 5 6 7 8 9 9**
 4. 2 4 6 8 5 1 3 7 9 9
 
+### 若 n 為正整數，右側程式三個迴圈執行 完畢後 a 值將為何？
+
+```python
+a = 0
+n = int(input())
+
+for i in range(1, n+1):
+    for j in range(1, n+1):
+        for k in range(1, n+1):
+            a = a + 1
+print(a)
+
+```
+
+### 右側程式片段執行 後，count 的值 為何？
+
+```python
+maze = [
+    [1, 1, 1, 1, 1],
+    [1, 0, 1, 0, 1],
+    [1, 1, 0, 0, 1],
+    [1, 0, 0, 1, 1],
+    [1, 1, 1, 1, 1]
+]
+count = 0
+for i in range(1, 3+1):
+    for j in range(1, 3+1):
+        dir = [
+            [-1, 0],
+            [0, 1],
+            [1, 0],
+            [0, -1]
+        ]
+        for d in range(4):
+            if maze[i+dir[d][0]][j+dir[d][1]] == 1:
+                count += 1
+
+print(count)
+
+```
+
+### 右側程式片段執行過程中的輸出為何？
+
+```python
+a = 5
+
+for i in range(0, 20, a + 1):
+    print(i + 5)
+
+```
+
+### 右側程式片段執行過程的輸出 為何？
+
+```python
+arr = [0] * 10
+for i in range(10):
+    arr[i] = i
+
+sum = 0
+for i in range(1, 9):
+    sum = sum - arr[i-1] + arr[i] + arr[i+1]
+print(sum)
+
+```
+
+### 下列程式碼會輸出什麼？
+
+```python
+n = 10
+a = [1, 3, 9, 2, 5, 8, 4, 9, 6, 7]
+
+index = 0
+for i in range(1, n):
+    if a[i] >= a[index]:
+        index = i
+print(index)
 
 
-
+```
 

@@ -158,6 +158,39 @@ else:
 3. 2
 4. 10
 
+### 下列程式碼是自動計算找零程式的一部分，程式碼中三個主要變數分別為 Total \(購買 總額\)，Paid \(實際支付金額\)，Change \(找零金額\)。但是此程式片段有冗餘的程式 碼，請找出冗餘程式碼的區塊。
+
+```python
+Total = 123
+Paid = 1000
+Change = Paid - Total
+print('500 : {} pieces'.format((Change - Change % 500)/500))
+Change = Change % 500
+
+print("100 : {} coins".format((Change-Change % 100)/100))
+Change = Change % 100
+
+# A 區
+print("50 : {} coins".format((Change-Change % 50)/50))
+Change = Change % 50
+
+# B 區
+print("10 : {} coins".format((Change-Change % 10)/10))
+Change = Change % 10
+
+# C 區
+print("5 : {} coins".format((Change-Change % 5)/5))
+Change = Change % 5
+
+# D 區
+print("1 : {} coins".format((Change-Change % 1)/1))
+Change = Change % 1
+
+
+```
+
+
+
 
 
 
