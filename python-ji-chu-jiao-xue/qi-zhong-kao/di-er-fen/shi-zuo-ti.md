@@ -1,27 +1,37 @@
 # 實作題
 
-## list 作業
+## 流程控制 作業
 
-{% embed url="https://zerojudge.tw/ShowProblem?problemid=d573" %}
+{% embed url="https://zerojudge.tw/ShowProblem?problemid=d584" %}
 
-考list對資料處理的基本操作，和面對不同數量級測資。
+照著題目好好做就可以拿到分數，但題目較複雜，可能會花比較多的時間看題目。
 
 ```python
 import sys
-for inputString in sys.stdin:
-    n = int(inputString)
-    groupOfKnight = [0] * (100000 + 1)
-    for _ in range(n):
-        newLine = list(map(int, input().split()))
-        groupNumber = newLine[0]
-        p = newLine[1]
-        knights = newLine[2:]
+for ss in sys.stdin:
+    role, level = map(int, ss.split())
+    point = 0
 
-        for knight in knights:
-            groupOfKnight[knight] = groupNumber
-            
-    y = int(input())
-    print(groupOfKnight[y])
+    # level up
+    if level > 10 and role is not 0:
+        point += 3 * (level - 10)
+    if role is 2 and level > 8:
+        point += 3 * (min(level, 10) - 8)
+
+    # upgrade role
+    if role is not 0:
+        if level >= 8 and role is 2:
+            point += 1
+        if level >= 10 and role is not 2:
+            point += 1
+        if level >= 30:
+            point += 1
+        if level >= 70:
+            point += 1
+        if level >= 120:
+            point += 3
+
+    print(point)
 ```
 
 ## 二維list 作業
@@ -43,46 +53,6 @@ for ss in sys.stdin:
       for i in range(row):
         print(l[i][j], end=' ')
       print()
-```
-
-## list TOI
-
-{% embed url="https://zerojudge.tw/ShowProblem?problemid=e836" %}
-
-比較進階的list，需要紀錄以前輸入的資料，並找最大值。也可利用兩個list做key跟value的map。下列是直接建一個全部數字的頻率的表，index代表數字，value代表頻率，也可達到相同的效果。
-
-```python
-import sys
-for ss in sys.stdin:
-    n = int(ss)
-    input_numbers = list(map(int, input().split()))
-    frequency = [0] * 20000
-    for input_number in input_numbers:
-        input_number += 9999
-        frequency[input_number] += 1
-
-    max_frequency = 0
-    number_of_different = 0
-    for number in range(20000):
-      if frequency[number] > 0:
-        number_of_different += 1
-      max_frequency = max(max_frequency, frequency[number])
-    print(number_of_different)
-
-    if max_frequency <= 1:
-        print('NO')
-    else:
-      for input_number in input_numbers:
-          input_number += 9999
-          # -1 代表已輸出過
-          if frequency[input_number] == -1:
-            continue
-          if frequency[input_number] == max_frequency:
-              frequency[input_number] = -1
-              print(input_number - 9999, end=' ')
-
-      print()
-
 ```
 
 ## 二維list TOI
@@ -127,5 +97,44 @@ for ss in sys.stdin:
     for row in treasure_map:
         print(*row)
 
+```
+
+## list TOI
+
+{% embed url="https://zerojudge.tw/ShowProblem?problemid=e836" %}
+
+比較進階的list，需要紀錄以前輸入的資料，並找最大值。也可利用兩個list做key跟value的map。下列是直接建一個全部數字的頻率的表，index代表數字，value代表頻率，也可達到相同的效果。
+
+```python
+import sys
+for ss in sys.stdin:
+    n = int(ss)
+    input_numbers = list(map(int, input().split()))
+    frequency = [0] * 20000
+    for input_number in input_numbers:
+        input_number += 9999
+        frequency[input_number] += 1
+
+    max_frequency = 0
+    number_of_different = 0
+    for number in range(20000):
+      if frequency[number] > 0:
+        number_of_different += 1
+      max_frequency = max(max_frequency, frequency[number])
+    print(number_of_different)
+
+    if max_frequency <= 1:
+        print('NO')
+    else:
+      for input_number in input_numbers:
+          input_number += 9999
+          # -1 代表已輸出過
+          if frequency[input_number] == -1:
+            continue
+          if frequency[input_number] == max_frequency:
+              frequency[input_number] = -1
+              print(input_number - 9999, end=' ')
+
+      print()
 ```
 

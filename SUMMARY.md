@@ -57,6 +57,7 @@
     * [✨ Bonus!](python-ji-chu-jiao-xue/zi-chuan-string/shang-ji-shi-zuo/bonus.md)
 * [⚔ 期中考](python-ji-chu-jiao-xue/qi-zhong-kao/README.md)
   * [出題規劃](python-ji-chu-jiao-xue/qi-zhong-kao/chu-ti-gui-hua.md)
+  * [SOP](python-ji-chu-jiao-xue/qi-zhong-kao/sop.md)
   * [第一份 含字串 不含二維list](python-ji-chu-jiao-xue/qi-zhong-kao/di-yi-fen/README.md)
     * [觀念題](python-ji-chu-jiao-xue/qi-zhong-kao/di-yi-fen/guan-nian-ti.md)
     * [實作題](python-ji-chu-jiao-xue/qi-zhong-kao/di-yi-fen/shi-zuo-ti.md)
