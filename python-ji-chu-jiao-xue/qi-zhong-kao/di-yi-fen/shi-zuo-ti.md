@@ -4,7 +4,35 @@
 
 {% embed url="https://zerojudge.tw/ShowProblem?problemid=d584" %}
 
-照著題目好好做就可以拿到分數，但題目較複雜，可能會花比較多的時間。
+照著題目好好做就可以拿到分數，但題目較複雜，可能會花比較多的時間看題目。
+
+```python
+import sys
+for ss in sys.stdin:
+    role, level = map(int, ss.split())
+    point = 0
+
+    # level up
+    if level > 10 and role is not 0:
+        point += 3 * (level - 10)
+    if role is 2 and level > 8:
+        point += 3 * (min(level, 10) - 8)
+
+    # upgrade role
+    if role is not 0:
+        if level >= 8 and role is 2:
+            point += 1
+        if level >= 10 and role is not 2:
+            point += 1
+        if level >= 30:
+            point += 1
+        if level >= 70:
+            point += 1
+        if level >= 120:
+            point += 3
+
+    print(point)
+```
 
 ### 作業
 
@@ -62,8 +90,6 @@ for encoded_letter in sys.stdin:
 ### list+二進位
 
 {% embed url="https://zerojudge.tw/ShowProblem?problemid=e799" %}
-
-
 
 需要有二進位的觀念，其他照著做即可，主要要花時間處理進位轉換。
 
