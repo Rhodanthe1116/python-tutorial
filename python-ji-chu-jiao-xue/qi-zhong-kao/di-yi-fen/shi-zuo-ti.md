@@ -1,6 +1,6 @@
 # 實作題
 
-### 作業
+### 流程控制 作業
 
 {% embed url="https://zerojudge.tw/ShowProblem?problemid=d584" %}
 
@@ -34,7 +34,7 @@ for ss in sys.stdin:
     print(point)
 ```
 
-### 作業
+### list 作業
 
 {% embed url="https://zerojudge.tw/ShowProblem?problemid=d562" %}
 
@@ -87,7 +87,7 @@ for encoded_letter in sys.stdin:
     print(k)
 ```
 
-### list+二進位
+### list 二進位
 
 {% embed url="https://zerojudge.tw/ShowProblem?problemid=e799" %}
 

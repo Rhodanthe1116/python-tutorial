@@ -6,7 +6,7 @@
 
 {% embed url="https://zerojudge.tw/ShowProblem?problemid=b266" %}
 
-{% embed url="https://zerojudge.tw/ShowProblem?problemid=c626" %}
 
 
+{% embed url="https://zerojudge.tw/ShowProblem?problemid=a417" %}
 
