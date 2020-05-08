@@ -237,5 +237,27 @@ for i in range(1, 5+1):
 
 答案：m = m + 2
 
+### 若 n 為正整數，右側程式三個迴圈執行 完畢後 a 值將為何？
 
+```python
+a = 0
+n = int(input())
+
+for i in range(1, n+1):
+    for j in range(i, n+1):
+        for k in range(1, n+1):
+            a = a + 1
+print(a)
+
+```
+
+### 右側程式片段執行過程中的輸出為何？
+
+```python
+a = 5
+
+for i in range(0, 20, a + 1):
+    print(i + 5)
+
+```
 

@@ -135,20 +135,6 @@ for i in range(int(n/2) + 1):
 3. **1 2 3 4 5 6 7 8 9 9**
 4. 2 4 6 8 5 1 3 7 9 9
 
-### 若 n 為正整數，右側程式三個迴圈執行 完畢後 a 值將為何？
-
-```python
-a = 0
-n = int(input())
-
-for i in range(1, n+1):
-    for j in range(1, n+1):
-        for k in range(1, n+1):
-            a = a + 1
-print(a)
-
-```
-
 ### 右側程式片段執行 後，count 的值 為何？
 
 ```python
@@ -173,16 +159,6 @@ for i in range(1, 3+1):
                 count += 1
 
 print(count)
-
-```
-
-### 右側程式片段執行過程中的輸出為何？
-
-```python
-a = 5
-
-for i in range(0, 20, a + 1):
-    print(i + 5)
 
 ```
 
