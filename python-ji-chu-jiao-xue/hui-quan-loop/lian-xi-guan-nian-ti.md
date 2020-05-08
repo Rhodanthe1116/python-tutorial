@@ -161,7 +161,7 @@ YES! YES! YES! YES!
 ```python
 x = 0
 for i in range(n):
-    for j in range(n):
+    for j in range(i, n):
         k = 1
         while k <= n:
             x = x + 1
@@ -169,9 +169,9 @@ for i in range(n):
 print(x)
 ```
 
-1. n\(n+1\)√⌊log2 𝑛⌋
+1. n\(n+1\)\*sqrt\(log2\(𝑛\)\)
 2. n2\(n+1\)/2
-3. **n\(n+1\)⌊log2n + 1⌋/2**
+3. **n\(n+1\)\[ \(log2\(n\)\) + 1 \] / 2**
 4. n\(n+1\)/2
 
 ### 請問執行下列程式的時候，哪一行可能永遠不會被執行到
