@@ -32,7 +32,7 @@
 
 編輯器 「Thonny」：[https://thonny.org/](https://thonny.org/)
 
-![&#x6700;&#x9069;&#x5408;&#x521D;&#x5B78;&#x8005;&#x7684; Python Editor](../.gitbook/assets/image%20%2854%29.png)
+![&#x6700;&#x9069;&#x5408;&#x521D;&#x5B78;&#x8005;&#x7684; Python Editor](../.gitbook/assets/image%20%2855%29.png)
 
 ## 隨堂練習：編寫第一個程式：Hello, world
 
@@ -68,7 +68,7 @@ print("hello, world")
 
 送出解答，貼上程式碼
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%2861%29.png)
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
