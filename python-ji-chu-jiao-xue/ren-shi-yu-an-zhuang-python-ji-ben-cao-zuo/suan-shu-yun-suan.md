@@ -11,10 +11,6 @@
 | 5 / 10 = 0 … 5取餘數 | 5 % 10 | 5 |
 | 5 ^ 2 \(指數 : 5的平方\) | 5 \*\* 2 | 25 |
 
-{% hint style="danger" %}
-美編的時候可以從ppt上面複製 格式應該會比較統一
-{% endhint %}
-
 ### 執行方法一 : 用 Shell 直接運算
 
 ![](https://lh3.googleusercontent.com/Ag3DiVCLBhfngVPzvJLU15zAmzLurNAQ1NyW0ssEM7VN8UjIc9KNYcTrgoBsYdYCs3N1vRyZXTR9Lvkhgt4rX_RVU838st51R_lEYAovPI5Qr9wR8Dufoizph7oXxmLm_LF532o)

@@ -1,8 +1,12 @@
 # While 重複的加總
 
-迴圈，不斷執行相同或類似的東西
+## 迴圈
+
+不斷執行相同或類似的東西
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
+
+## 簡單範例
 
 ```python
 i = 1
@@ -18,7 +22,7 @@ if i < 6:
 3 
 ```
 
-**進階範例**
+## **實際範例**
 
 ```python
 print('計算總和的程式')
@@ -32,11 +36,13 @@ while cost > 0:
 print('總和是',total)
 ```
 
+![](../../.gitbook/assets/image%20%2860%29.png)
+
 {% hint style="warning" %}
 **大家來找碴**
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%2855%29.png)
+![](../../.gitbook/assets/image%20%2856%29.png)
 
 ## **任務: 長方形**
 
@@ -82,7 +88,6 @@ if guess == key:
 	print('答對了')
 else:
 	print('猜錯了，遊戲結束')
-
 ```
 
 ## \*\*\*\*

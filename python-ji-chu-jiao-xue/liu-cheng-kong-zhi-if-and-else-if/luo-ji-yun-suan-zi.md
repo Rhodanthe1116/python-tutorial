@@ -9,18 +9,17 @@ if month == 8 and day == 15:
 	print('中秋節快樂')
 else:
 	print('平常日')
-
 ```
 
-**note :** 
-
- **非 0 的數值會視為True**
+{% hint style="info" %}
+**非 0 的數值會視為True**
 
 ```python
 a = 3.14
 if a :
 	print('這行會印出來')
 ```
+{% endhint %}
 
 ## **or**
 

@@ -1,6 +1,6 @@
 # 中斷重複 break :  I am coming!!
 
-**簡單範例**
+## **簡單範例**
 
 ```python
 i = 1
@@ -11,7 +11,7 @@ while i < 6:
 	i += 1
 ```
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 **與 " 沒有 " break 句型比較 :**
 

@@ -7,12 +7,14 @@
 * 合法的運算子
 * 運算結果
 
+## 資料型態有哪些？
+
 <table>
   <thead>
     <tr>
+      <th style="text-align:left">&#x8CC7;&#x6599;&#x578B;&#x614B;</th>
       <th style="text-align:left">&#x8A9E;&#x6CD5;</th>
-      <th style="text-align:left">&#x8209;&#x4F8B;</th>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">&#x8AAA;&#x660E;</th>
     </tr>
   </thead>
   <tbody>
@@ -73,7 +75,9 @@
       </td>
     </tr>
   </tbody>
-</table>| **Python程式碼** | **說明** | **運算結果** |
+</table>## 運算範例
+
+| **Python程式碼** | **說明** | **運算結果** |
 | :--- | :--- | :--- |
 | **12 + 2** | **整數加法** | **14** |
 | **'12' + '2'** | **字串加法** | **'122'** |
