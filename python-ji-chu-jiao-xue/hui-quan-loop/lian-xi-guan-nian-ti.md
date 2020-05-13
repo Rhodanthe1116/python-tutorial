@@ -258,6 +258,19 @@ a = 5
 
 for i in range(0, 20, a + 1):
     print(i + 5)
+```
 
+### 請問右側程式，執行完後輸出為何？
+
+```python
+i = 2
+x = 3
+N = 65536
+
+while i <= N:
+    i = i * i * i
+    x = x + 1
+
+print(i, x)
 ```
 

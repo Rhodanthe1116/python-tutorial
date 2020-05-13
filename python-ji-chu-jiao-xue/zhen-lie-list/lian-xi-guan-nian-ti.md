@@ -188,6 +188,22 @@ for i in range(1, n):
         index = i
 print(index)
 
-
 ```
+
+## 若 A 是一個可儲存 n 筆整數的串列，且資料儲存於 A\[0\]~A\[n-1\]。經過右側程式碼運算後，以下何者敘述不一定正確？
+
+```python
+A = [...(共有n個元素)]
+p = q = A[0]
+for i in range(1, n):
+    if A[i] > p:
+        p = A[i]
+    if A[i] < q:
+        q =A[i]
+```
+
+1. **q &lt; p**
+2. p 是 A 陣列資料中的最大值
+3. q 是 A 陣列資料中的最小值
+4. A\[0\] &lt;= p
 

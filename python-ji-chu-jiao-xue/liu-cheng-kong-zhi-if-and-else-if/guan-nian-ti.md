@@ -164,29 +164,27 @@ else:
 Total = 123
 Paid = 1000
 Change = Paid - Total
-print('500 : {} pieces'.format((Change - Change % 500)/500))
+print("500 :", (Change - Change % 500)/500, "pieces")
 Change = Change % 500
 
-print("100 : {} coins".format((Change-Change % 100)/100))
+print("100 :", (Change - Change % 100)/100, "coins")
 Change = Change % 100
 
 # A 區
-print("50 : {} coins".format((Change-Change % 50)/50))
+print("50 :", (Change - Change % 50)/50, "coins")
 Change = Change % 50
 
 # B 區
-print("10 : {} coins".format((Change-Change % 10)/10))
+print("10 :", (Change - Change % 10)/10, "coins")
 Change = Change % 10
 
 # C 區
-print("5 : {} coins".format((Change-Change % 5)/5))
+print("5 :", (Change - Change % 5)/5, "coins")
 Change = Change % 5
 
 # D 區
-print("1 : {} coins".format((Change-Change % 1)/1))
+print("1 :", (Change - Change % 1)/1, "coins")
 Change = Change % 1
-
-
 ```
 
 
