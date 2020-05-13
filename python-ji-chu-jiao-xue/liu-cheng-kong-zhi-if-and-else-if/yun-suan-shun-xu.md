@@ -9,7 +9,15 @@
 
 ## **練習**
 
+{% hint style="info" %}
+\*\*\*\*
+{% endhint %}
+
 ![](https://lh3.googleusercontent.com/2zBfTw6yJTehlGJS5dJo4hDOxs9GLLKfA7Ywz9b36Ue7zRx7c9YGJAZS48JNpDGck5l1RUj6LRNrm1oK-w1lUwDD0Oj-O6NICbqAl06XRqHXnUkjIRKU-p-vVlTokKfOFjGeRh0)
+
+{% hint style="info" %}
+**小技巧 : 如果判斷式後只有一行指令，可直接寫在判斷式後**
+{% endhint %}
 
 請完成下表
 
@@ -24,8 +32,5 @@
 |  |
 |  |
 |  |
-|  |
-
-**小技巧 : 如果判斷式後只有一行指令，可直接寫在判斷式後**  
-
+|   |
 
