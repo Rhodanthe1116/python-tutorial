@@ -8,7 +8,7 @@
 
 如下圖：
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 一個名為`hp`的變數，而`hp`中儲存`100`這個值。
 

@@ -26,13 +26,13 @@
 
 注意下圖
 
-![&#x8981;&#x5148;&#x52FE;&#x9078;Add Python 3.X to PATH&#xFF0C;&#x518D;&#x9EDE;Install Now&#x3002;](../.gitbook/assets/image%20%284%29.png)
+![&#x8981;&#x5148;&#x52FE;&#x9078;Add Python 3.X to PATH&#xFF0C;&#x518D;&#x9EDE;Install Now&#x3002;](../.gitbook/assets/image%20%2813%29.png)
 
 設定環境變數：[https://ericjhang.github.io/archives/ad5450f3.html](https://ericjhang.github.io/archives/ad5450f3.html)
 
 編輯器 「Thonny」：[https://thonny.org/](https://thonny.org/)
 
-![&#x6700;&#x9069;&#x5408;&#x521D;&#x5B78;&#x8005;&#x7684; Python Editor](../.gitbook/assets/image%20%2823%29.png)
+![&#x6700;&#x9069;&#x5408;&#x521D;&#x5B78;&#x8005;&#x7684; Python Editor](../.gitbook/assets/image%20%2854%29.png)
 
 ## 隨堂練習：編寫第一個程式：Hello, world
 
@@ -68,9 +68,9 @@ print("hello, world")
 
 送出解答，貼上程式碼
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2858%29.png)
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 {% hint style="success" %}
 成功在ZeroJudge上完成一題！
