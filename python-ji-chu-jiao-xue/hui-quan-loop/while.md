@@ -1,10 +1,8 @@
-# While
+# While 重複的加總
 
-迴圈，不斷執行相同或類似的東西，例如：一次處理數百萬筆資料、偵測改變等。
+迴圈，不斷執行相同或類似的東西
 
-## while
-
-先看看 if
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 ```python
 i = 1
@@ -13,48 +11,79 @@ if i < 6:
     i += 1
 ```
 
-只會執行一次
-
-再看看 while
-
-```python
-i = 1
-while i < 6:
-    print(i)
-    i += 1
+```bash
+# 輸出
+1 
+2 
+3 
 ```
 
-會執行很多次，直到條件不成立，若沒有跳出一直執行則稱作**無窮迴圈** **Infinite Loop** \(or **Endless Loop**\)
+**進階範例**
 
 ```python
-i = 1
-while i < 6:
-    print(i)
+print('計算總和的程式')
+total = 0
+cost = int(input('請輸入費用> ( 0為終止輸入 )'))
+total = total + cost
+while cost > 0:
+	cost = int(input('請輸入費用> ( 0為終止輸入 )'))
+	total += cost
+
+print('總和是',total)
 ```
 
-## break
+{% hint style="warning" %}
+**大家來找碴**
+{% endhint %}
 
-可以另外跳出迴圈
+![](../../.gitbook/assets/image%20%2855%29.png)
+
+## **任務: 長方形**
+
+* **每次輸入一行，包含3個值，每個值用空格間隔**
+* **第一個值與第二個值，分別代表長\(橫\)、寬\(直\)**
+* **第三個值代表印出的符號**
+
+```bash
+# 輸入
+4 3 *
+
+# 輸出
+****
+****
+****
+
+# 輸入
+3 4 6 
+
+# 輸出
+666
+666
+666
+666
+```
+
+## **其他例子：終極密碼，猜數字**
 
 ```python
-i = 1
-while i < 6:
-    print(i)
-    if i == 3:
-        break
-    i += 1
+print('終極密碼')
+key = 99
+guess = int(input('請輸入猜測> ( 1~100 )'))
+count = 1
+while guess != key and count < 5:
+	print('猜錯了')
+	if guess > key:
+		print('再小一點')
+	else:
+		print('再大一點')
+	guess = int(input('請輸入猜測> ( 1~100 )'))
+	count += 1
+if guess == key:
+	print('答對了')
+else:
+	print('猜錯了，遊戲結束')
+
 ```
 
-## continue
-
-結束這個迴圈的這一次，但不跳出整個迴圈
-
-```python
-i = 0
-while i < 6:
-    i += 1 
-    if i == 3:
-        continue
-    print(i)
-```
+## \*\*\*\*
 
