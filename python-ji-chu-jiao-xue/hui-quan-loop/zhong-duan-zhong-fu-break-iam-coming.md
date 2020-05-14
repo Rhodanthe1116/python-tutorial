@@ -13,6 +13,7 @@ while i < 6:
 
 ![](../../.gitbook/assets/image%20%2851%29.png)
 
+{% hint style="info" %}
 **與 " 沒有 " break 句型比較 :**
 
 ```python
@@ -21,8 +22,9 @@ while i < 6:
 	print(i)
 	i += 1
 ```
+{% endhint %}
 
-## **終極密碼 \( break \)**
+## **實際範例：終極密碼 \( break \)**
 
 ```python
 print('終極密碼')

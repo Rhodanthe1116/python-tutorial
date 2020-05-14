@@ -1,5 +1,7 @@
 # while 和 for 比較
 
+## 直接看範例
+
 ![](../../.gitbook/assets/image%20%2862%29.png)
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
@@ -8,7 +10,7 @@
 **for迴圈的變數計數器一旦決定好範圍就不受任何干擾**
 {% endhint %}
 
-\*\*\*\*
+## **while與for比較表**
 
 | **名稱** | **while** | **for** |
 | :--- | :--- | :--- |

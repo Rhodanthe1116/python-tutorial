@@ -54,39 +54,6 @@ for ss in sys.stdin:
         print(*l)
 ```
 
-## 字串處理
-
-{% embed url="https://zerojudge.tw/ShowProblem?problemid=e975" %}
-
-字串處理，需要熟悉內建函數如len\(\), find\(\), ord\(\), chr\(\), isalpha\(\), 字串拼接等，和判斷邊界條件，需要注意Python不像C++一樣可以用=來指定字串中的字元，也不能直接對字元做加減。
-
-```python
-import sys
-for encoded_letter in sys.stdin:
-
-    k = 0
-    while True:
-        is_love_found = encoded_letter.find('love') != -1 or \
-            encoded_letter.find('Love') != -1
-        if is_love_found:
-            break
-        else:
-            decoded_letter = ''
-            for char in encoded_letter:
-                if char.isalpha():
-                    decoded_char = chr(ord(char) + 1)
-                    if decoded_char == chr(ord('z') + 1):
-                        decoded_char = 'a'
-                    elif decoded_char == chr(ord('Z') + 1):
-                        decoded_char = 'A'
-                    decoded_letter += decoded_char
-                else:
-                    decoded_letter += char
-            encoded_letter = decoded_letter
-            k += 1
-    print(k)
-```
-
 ## list 二進位
 
 {% embed url="https://zerojudge.tw/ShowProblem?problemid=e799" %}
@@ -114,6 +81,50 @@ for input_string in sys.stdin:
             elif digit == 1:
                 print(symbol, end=' ')
         print()
+
+```
+
+## 二維list TOI
+
+{% embed url="https://zerojudge.tw/ShowProblem?problemid=e787" %}
+
+二維list的基本操作，以及比較複雜的行列關係。
+
+```python
+import sys
+for ss in sys.stdin:
+    n, m = map(int, ss.split())
+
+    treasure_map = []
+    for i in range(n):
+        new_row = list(map(int, input().split()))
+        treasure_map.append(new_row)
+
+    # 注意：兩張圖之間有個空格
+    input()
+    
+    transforming_map = []
+    for i in range(n):
+        new_row = list(map(int, input().split()))
+        transforming_map.append(new_row)
+
+    for i in range(n):
+        for j in range(m):
+            sum_of_row_and_column = 0
+            # 算行
+            for ii in range(n):
+                sum_of_row_and_column += transforming_map[ii][j]
+            # 算列
+            for jj in range(m):
+                sum_of_row_and_column += transforming_map[i][jj]
+            # 扣掉重複的
+            sum_of_row_and_column -= transforming_map[i][j]
+
+            if sum_of_row_and_column % 2 == 1:
+                treasure_map[i][j] = int(not treasure_map[i][j])
+
+    for row in treasure_map:
+        print(*row)
 
 ```
 

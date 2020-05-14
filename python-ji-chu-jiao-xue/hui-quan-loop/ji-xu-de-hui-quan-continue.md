@@ -17,6 +17,7 @@ while i < 6:
 
 ![](../../.gitbook/assets/image%20%282%29.png)
 
+{% hint style="info" %}
 **與 " 沒有 " continue 句型比較 :**
 
 ```python
@@ -25,6 +26,7 @@ while i < 6:
 	i += 1
 	print(i)
 ```
+{% endhint %}
 
 ## **範例: 挑出特定數**
 
@@ -53,8 +55,9 @@ while count < num:
   *
  * *
 * * *
+```
 
-
+```bash
 # 輸入
 0
 

@@ -1,6 +1,6 @@
 # 更寬廣的範圍
 
-**不一定要用 range\( \)**
+for**不一定要用 range\( \)**
 
 ```python
 for color in 'red','green','blue':

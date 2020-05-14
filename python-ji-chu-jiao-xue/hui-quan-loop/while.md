@@ -10,9 +10,9 @@
 
 ```python
 i = 1
-if i < 6:
-    print(i)
-    i += 1
+while i < 4:
+	print(i)
+	i += 1
 ```
 
 ```bash
@@ -22,7 +22,25 @@ if i < 6:
 3 
 ```
 
+{% hint style="info" %}
+**與 " 如果 " 句型比較**
+
+```python
+i = 1
+if i < 6:
+	print(i)
+	i += 1
+```
+
+```bash
+# 輸出
+1 
+```
+{% endhint %}
+
 ## **實際範例**
+
+![](../../.gitbook/assets/image%20%2860%29.png)
 
 ```python
 print('計算總和的程式')
@@ -35,8 +53,6 @@ while cost > 0:
 
 print('總和是',total)
 ```
-
-![](../../.gitbook/assets/image%20%2860%29.png)
 
 {% hint style="warning" %}
 **大家來找碴**
@@ -58,7 +74,9 @@ print('總和是',total)
 ****
 ****
 ****
+```
 
+```bash
 # 輸入
 3 4 6 
 
