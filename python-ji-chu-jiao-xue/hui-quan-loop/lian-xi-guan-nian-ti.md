@@ -154,7 +154,31 @@ YES! YES! YES! YES!
 
 ## 上題迴圈稱作什麼？
 
-## 期中
+
+
+## 改自佳儫ppt
+
+### 請問若輸入兩數字n, m，則t會輸出什麼？
+
+```python
+n = int(input())
+m = int(input())
+
+t = 0
+for j in range(1, n+1):
+    for i in range(1, m+1):
+        t += 1
+print(t)
+```
+
+1. n\*m
+2. \(n+1\) \* \(m+1\)
+3. n \* \(m + 1\)
+4. n \* n
+
+
+
+## 期中 APCS
 
 ### 請問下列程式輸出為何？
 
