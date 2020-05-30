@@ -33,7 +33,7 @@ for i in range(3):
 
 ## **超級比一比** 
 
-![](../../.gitbook/assets/image%20%2872%29.png)
+![](../../.gitbook/assets/image%20%2883%29.png)
 
 ```python
 data = input().split() 
@@ -76,7 +76,7 @@ for i in range(3):
 * **輸入完座號後空一格輸入食物種類Ex: rice/noodle/Dumpling等等…代表喜歡的食物。**
 * **最多輸入5行，若輸入的第一個數字不為1~5則代表記錄結束**
 
-![](../../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2895%29.png)
 
 * **記錄每位同學的飲食偏好，並輸出**
 * **若有學生的座號未輸入則在該欄位輸出-1**

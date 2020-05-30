@@ -2,7 +2,7 @@
 
 新增元素
 
-![](../../.gitbook/assets/image%20%2865%29.png)
+![](../../.gitbook/assets/image%20%2869%29.png)
 
 1. 方法一:　append\(\)
 2. 方法二:　+
@@ -11,7 +11,7 @@
 
 串列的 append\(\) 操作可將一個元素加入到串列的尾端
 
-![](../../.gitbook/assets/image%20%2887%29.png)
+![](../../.gitbook/assets/image%20%28102%29.png)
 
 ```python
 record = ['rice', 'cake', 'noodle', 'fruit']
@@ -37,7 +37,7 @@ food = 'egg'
 record = record + [food] # 新同學加入
 ```
 
-![](../../.gitbook/assets/image%20%2870%29.png)
+![](../../.gitbook/assets/image%20%2880%29.png)
 
 也可以直接將input\(\)放在中括號內
 

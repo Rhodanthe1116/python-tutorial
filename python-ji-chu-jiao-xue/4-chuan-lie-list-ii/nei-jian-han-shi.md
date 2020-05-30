@@ -86,9 +86,9 @@ print(b)
 # 輸出: [3, 2, 1]
 ```
 
-![](../../.gitbook/assets/image%20%2866%29.png)
+![](../../.gitbook/assets/image%20%2872%29.png)
 
-![](../../.gitbook/assets/image%20%2878%29.png)
+![](../../.gitbook/assets/image%20%2890%29.png)
 
 ## 任務:成績統計
 

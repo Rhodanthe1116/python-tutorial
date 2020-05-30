@@ -2,7 +2,7 @@
 
 ## 串列的等號
 
-![](../../.gitbook/assets/image%20%2869%29.png)
+![](../../.gitbook/assets/image%20%2879%29.png)
 
 ```python
 a = 1
@@ -36,7 +36,7 @@ print(a, b)
 
 ￼
 
-![](../../.gitbook/assets/image%20%2876%29.png)
+![](../../.gitbook/assets/image%20%2888%29.png)
 
 ### 比較
 
@@ -62,7 +62,7 @@ print(a, b)
 # [1, 2, 3] ['z', 2, 3]
 ```
 
-![](../../.gitbook/assets/image%20%2873%29.png)
+![](../../.gitbook/assets/image%20%2885%29.png)
 
 
 

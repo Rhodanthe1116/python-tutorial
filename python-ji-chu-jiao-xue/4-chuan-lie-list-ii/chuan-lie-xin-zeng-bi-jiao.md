@@ -1,6 +1,6 @@
 # 串列新增-比較
 
-![](../../.gitbook/assets/image%20%2871%29.png)
+![](../../.gitbook/assets/image%20%2881%29.png)
 
 ## 比較一
 
