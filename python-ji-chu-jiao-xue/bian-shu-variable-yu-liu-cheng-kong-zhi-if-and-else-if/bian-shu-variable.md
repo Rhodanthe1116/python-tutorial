@@ -99,7 +99,9 @@ print(hp)
       </td>
     </tr>
   </tbody>
-</table>```python
+</table>
+
+```python
 int1 = 15
 float1 = 2.4
 str1 = "hello, world"
