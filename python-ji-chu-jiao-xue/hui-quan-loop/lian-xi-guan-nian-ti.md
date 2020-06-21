@@ -208,7 +208,7 @@ print(x)
 ### 請問執行下列程式的時候，哪一行可能永遠不會被執行到
 
 ```python
-a = input()
+a = int(input())
 while a < 10:
     a = a + 5
 if a < 12:

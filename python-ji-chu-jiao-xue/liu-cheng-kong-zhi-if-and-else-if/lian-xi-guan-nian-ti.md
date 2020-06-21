@@ -2,9 +2,27 @@
 
 ## 若要在 Python 中判斷各種情況，可用下列哪種語法？
 
-1. `if...else if...else`
-2. `if...elif...else`
-3. `if...else if...elif`
+1. ```python
+   if
+       ...
+   else if
+       ...
+   else
+   ```
+2. ```python
+   if
+       ...
+   elif
+       ...
+   else
+   ```
+3. ```python
+   if
+       ...
+   else if
+       ...
+   elif
+   ```
 
 ## 下列哪個程式碼是對的？
 
@@ -81,7 +99,8 @@ print(4)
 ## 下列程式碼會輸出什麼？
 
 ```python
-print('a' + 'x' if 2 > 1 else 'y' + 'b')
+ans = 'a' + 'x' if 2 > 1 else 'y' + 'b'
+print(ans)
 ```
 
 ## 下列程式碼會輸出什麼？
