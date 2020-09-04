@@ -95,8 +95,8 @@ print(id(i))
 ```python
 def my_function(ly):
     ly[0] = 999
-    print("after ly[0] = 999")
     
+    print("after ly[0] = 999")
 lx = [0, 1, 2, 3, 4]
 print("lx =", lx)
 my_function(lx)
