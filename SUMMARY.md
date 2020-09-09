@@ -137,6 +137,10 @@
   * [第一份](python-ji-chu-jiao-xue/qi-mo-kao/di-yi-fen/README.md)
     * [觀念題](python-ji-chu-jiao-xue/qi-mo-kao/di-yi-fen/guan-nian-ti.md)
     * [實作題](python-ji-chu-jiao-xue/qi-mo-kao/di-yi-fen/shi-zuo-ti.md)
+  * [第二份](python-ji-chu-jiao-xue/qi-mo-kao/di-er-fen/README.md)
+    * [實作題](python-ji-chu-jiao-xue/qi-mo-kao/di-er-fen/shi-zuo-ti.md)
+  * [第三份](python-ji-chu-jiao-xue/qi-mo-kao/di-san-fen/README.md)
+    * [實作題](python-ji-chu-jiao-xue/qi-mo-kao/di-san-fen/shi-zuo-ti.md)
 * [\#️⃣ 其他 Other](python-ji-chu-jiao-xue/qi-ta-other/README.md)
   * [註解](python-ji-chu-jiao-xue/qi-ta-other/zhu-jie.md)
 

@@ -3,8 +3,9 @@
 ## 要如何創造一個函數？
 
 1. def myFunction\(\):
-2. function myfunction\(\):
+2. function myFunction\(\):
 3. create myFunction\(\):
+4. func myFunction\(\):
 
 1
 
@@ -174,4 +175,30 @@ spam = "global spam"
 1
 
 在函式中，呼叫同名的變數時， 指的是函式內的那個變數而不是函式外的。
+
+## 期末 APCS
+
+給定一個 1x8 的串列 A， A = {0, 2, 4, 6, 8, 10, 12, 14}。右側函式 Search\(x\) 真正目的是找到 A 之中大於 x 的最小值。然而，這個函式有誤。請問下列哪個函式呼叫可測出函式有誤？
+
+```python
+A = [0, 2, 4, 6, 8, 10, 12, 14]
+
+def Search(x):
+    high = 7
+    low = 0
+    while high > low:
+        mid = (high + low) // 2
+        if A[mid] <= x:
+            low = mid + 1
+        else:
+            high = mid
+    return A[high]
+```
+
+1. Search\(-1\) 
+2. Search\(0\)
+3. Search\(10\)
+4. Search\(16\)
+
+4
 
