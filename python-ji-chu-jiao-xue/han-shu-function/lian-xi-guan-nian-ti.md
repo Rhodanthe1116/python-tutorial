@@ -162,9 +162,8 @@ def scope_test():
     spam = "local spam"
     print(spam)
    
-scope_test() 
-print(spam)
 spam = "global spam"
+scope_test() 
 ```
 
 1. local spam
