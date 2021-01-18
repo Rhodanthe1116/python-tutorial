@@ -32,7 +32,7 @@ print(sum)
 
 3
 
-此程式會將l中重複的元素相加，因此將1, 3, 0, 9, 4, 5相加等於22。
+此程式會將l中不重複的元素相加，因此將1, 3, 0, 9, 4, 5相加等於22。
 
 ## 請問下列對於程式的輸出結果的描述，何者錯誤
 
@@ -58,9 +58,9 @@ print(a ^ b)
 ## 請問下列關於dictionary的描述，何者錯誤？
 
 1. dictionary內的key可以重複，也就是一個key可以對應到不同的value
-2. dictionary內的元素沒有順序（不會將元素以key排序）
+2. dictionary跟set一樣，不會按照key的大小排序（無序）
 3. dictionary可以用索引值存取
-4. dictionary可以用in語法來確認元素是否存在
+4. dictionary可以用in語法來確認key是否存在
 
 1
 

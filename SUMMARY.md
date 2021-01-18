@@ -144,3 +144,8 @@
 * [\#️⃣ 其他 Other](python-ji-chu-jiao-xue/qi-ta-other/README.md)
   * [註解](python-ji-chu-jiao-xue/qi-ta-other/zhu-jie.md)
 
+---
+
+* [網頁遊戲設計​ - 終極密碼](untitled.md)
+* [簡易密碼學](jian-yi-mi-ma-xue.md)
+

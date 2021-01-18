@@ -87,12 +87,10 @@ print(l)
 ## 請問下列程式會輸出什麼？
 
 ```python
-from math import sqrt
-
 l = [1, 2, 3 ,4, 5, 6, 7, 8, 9]
 
 def my_filter(x):
-    return sqrt(x) == int(sqrt(x))
+    return x**0.5 == int(x**0.5)
 
 filtered = list(filter(my_filter, l))
 print(filtered)
