@@ -27,7 +27,7 @@ for i in range(n):
 print(sum)
 ```
 
-## 簡單map
+## 簡單dict
 
 {% embed url="https://zerojudge.tw/ShowProblem?problemid=e839" %}
 
