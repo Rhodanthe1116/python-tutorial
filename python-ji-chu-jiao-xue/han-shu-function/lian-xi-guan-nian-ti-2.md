@@ -341,7 +341,7 @@ F(15)
 
 4
 
-## 若以 F\(5,2\)呼叫右側 F\(\)函式，執行完畢後回傳值為何?
+### 若以 F\(5,2\)呼叫右側 F\(\)函式，執行完畢後回傳值為何?
 
 ```python
 def F(x, y):
@@ -360,4 +360,193 @@ print(F(5, 2))
 4. 8
 
 3
+
+### 若以 G\(100\)呼叫函式後，總共會輸出幾個'\*'?
+
+```python
+
+def K(b):
+    print('*')
+    if b % 4:
+        K(b+1)
+
+def G(m):
+    for i in range(m):
+        K(i)
+
+G(100)3
+```
+
+1. 25
+2. 75
+3. 150
+4. 250
+
+4
+
+### 給定右側函式 F\(\)，F\(n\)執行完所回傳的 x 值為何？
+
+```python
+def F(n):
+    x = 0
+    for i in range(1, n+1):
+        for j in range(i, n+1):
+            k = 1
+            while k <= n:
+                k *= 2
+                x = x + 1
+    return x
+```
+
+![](../../.gitbook/assets/image%20%28115%29.png)
+
+1. A
+2. B
+3. C
+4. D
+
+3
+
+### 給定 G\(\), K\(\) 兩函式，執行 G\(3\)後所回傳的值為何？
+
+```python
+def K(a, n):
+    if n >= 0:
+        return K(a, n-1) + a[n]
+    else:
+        return 0
+
+def G(n):
+    a = [5, 4, 3, 2, 1]
+    return K(a, n)
+
+print(G(3))
+
+```
+
+1. 5
+2. 12
+3. 14
+4. 15
+
+3
+
+### 函式以 F\(7\) 呼叫後回傳值為 12，則&lt;condition&gt; 應為何？
+
+```python
+def F(a):
+    if (<condition>):
+        return 1
+    else:
+        return F(a-2) + F(a-3)
+
+print(F(7))
+
+```
+
+1. a &lt; 3
+2. a &lt; 2
+3. a &lt; 1
+4. a &lt; 0
+
+4
+
+### 程式執行完三次 G\(\)的呼叫後，p陣列中有幾個元素的值為 0？
+
+```python
+def K(p, v):
+    if p[v] != v:
+        p[v] = K(p, p[v])
+    return p[v]
+
+def G(p, l, r):
+    a = K(p, l)
+    b = K(p, r)
+    if a != b:
+        p[b] = a
+        
+p = [0, 1, 2, 3, 4]
+G(p, 0, 1)
+G(p, 2, 4)
+G(p, 0, 4)
+
+```
+
+1. 1
+2. 2
+3. 3
+4. 4
+
+3
+
+### 請問下列程式會輸出什麼？
+
+```python
+def G(B):
+    B = B * B
+    return B
+
+a = 0
+m = 5
+a = G(m)
+if m < 10:
+    a = G(m) + a
+else:
+    a = G(m)
+    
+print(a)
+
+```
+
+1. 0
+2. 10
+3. 25
+4. 50
+
+4
+
+### 如下
+
+```python
+class element:
+    data = 0
+    next = -1
+
+def remove_next_element(mylist, current):
+    if mylist[current].next != -1:
+        # 移除current的下一個element
+```
+
+List 是一個陣列，裡面的元素是 element， 它的定義如上程式碼
+
+List 中的每一個 element 利用 next 這個整數變數來記錄下一個 element 在陣列中的位置，如果沒有下一個 element， next 就會記錄-1。所有的 element 串成了一 個串列 \(linked list\)。例如在 list 中有三筆 資料
+
+![](../../.gitbook/assets/image%20%28114%29.png)
+
+它所代表的串列如下圖
+
+![](../../.gitbook/assets/image%20%28117%29.png)
+
+remove\_next\_element 是一個函數，用來移除串列中 current 所指向的下一個元素，但是必須 保持原始串列的順序。例如，若 current 為 3 \(對應到 list\[3\]\)， 呼叫完 remove\_next\_element 後，串列應為
+
+![](../../.gitbook/assets/image%20%28118%29.png)
+
+請問在上程式碼中，註解下應該填入的程式碼為何?
+
+1. mylist\[current\].next = current 
+2. mylist\[current\].next = mylist\[mylist\[current\].next\].next 
+3. current = mylist\[mylist\[current\].next\].next 
+4. mylist\[mylist\[current\].next\].next = mylist\[current\].next 
+
+2
+
+
+
+
+
+
+
+
+
+### 
 

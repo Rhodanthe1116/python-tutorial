@@ -36,7 +36,7 @@ print(prevId == currId)
 1. True True
 2. True False
 3. False True
-4. True False
+4. False False
 
 3
 

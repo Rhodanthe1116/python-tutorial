@@ -122,7 +122,7 @@ new.walk()
 
 1
 
-Warrior繼承Character，會將所有成員都表留，包含walk\(\)及attack\(\)，即使attack\(\)被改寫了也不會影響walk\(\)
+Warrior繼承Character，會將所有成員都保留，包含walk\(\)及attack\(\)，即使attack\(\)被改寫了也不會影響walk\(\)
 
 ## 請問下列程式會輸出什麼？
 
