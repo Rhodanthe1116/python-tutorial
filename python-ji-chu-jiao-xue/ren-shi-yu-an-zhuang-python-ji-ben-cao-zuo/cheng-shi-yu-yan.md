@@ -16,11 +16,13 @@
 
 豐富且大量的函示庫和模組，讓我們可以快速地做到：
 
+* **應用程式**，如 Flask, Django [範例](https://repl.it/@hwchang/python-guess-the-number-template)
 * **資料視覺化**，如 Matplotlib
 * **資料分析** ，如 Pandas & Numpy
 * **深度學習** ，如 TensorFlow, Keras
-* **爬蟲** ，如 BeautifulSoup
+* **爬蟲** ，如 BeautifulSoup範[例](https://www.webscrapingpro.tw/yahoo-movie-web-scraping-using-python/)
 * **模擬物理**，如 VPython
+* Pygame [https://www.youtube.com/watch?v=Rp3ZrVMNnuk](https://www.youtube.com/watch?v=Rp3ZrVMNnuk)
 
 ## 編寫程式源碼
 
