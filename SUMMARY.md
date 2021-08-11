@@ -80,6 +80,7 @@
   * [二維串列走訪](python-ji-chu-jiao-xue/er-wei-list/er-wei-chuan-lie-zou-fang.md)
   * [多維串列](python-ji-chu-jiao-xue/er-wei-list/duo-wei-chuan-lie.md)
   * [⚡ 練習：觀念題](python-ji-chu-jiao-xue/er-wei-list/lian-xi-guan-nian-ti.md)
+  * [⚡ 練習：觀念題（題目）](python-ji-chu-jiao-xue/er-wei-list/lian-xi-guan-nian-ti-ti-mu.md)
   * [⚡ 練習：上機實作](python-ji-chu-jiao-xue/er-wei-list/lian-xi-shang-ji-shi-zuo.md)
 * [⚔ 期中考](python-ji-chu-jiao-xue/qi-zhong-kao/README.md)
   * [出題規劃](python-ji-chu-jiao-xue/qi-zhong-kao/chu-ti-gui-hua.md)
