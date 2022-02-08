@@ -9,7 +9,7 @@
 
 2
 
-while\(\)裡面只能放一個條件，通常不會事先知道while裡面將會做幾次，我們只要知道，會重複執行到while裡面的條件不成立，比如說要不斷的把n除以2，直到n &lt;= 0，可以使用 while\(n &gt; 0\)，。對於事先知道要執行幾次的情況，比如說執行n次，一般會使用for，如for i in range\(n\)
+while()裡面只能放一個條件，通常不會事先知道while裡面將會做幾次，我們只要知道，會重複執行到while裡面的條件不成立，比如說要不斷的把n除以2，直到n <= 0，可以使用 while(n > 0)，。對於事先知道要執行幾次的情況，比如說執行n次，一般會使用for，如for i in range(n)
 
 ## 通常 for 是用來處理什麼情況的迴圈？
 
@@ -31,7 +31,7 @@ for x in range(10):
     print(x)
 ```
 
-1. \(什麼都沒有輸出\)
+1. (什麼都沒有輸出)
 2. 1 3 5 7 9
 3. 2 4 6 8 10
 4. 1 2 3 4 5 6 7 8 9
@@ -51,7 +51,7 @@ for x in range(10):
     print(x)
 ```
 
-1. \(什麼都沒有輸出\)
+1. (什麼都沒有輸出)
 2. 1 3 5 7 9
 3. 2 4 6 8 10
 4. 1 2 3 4 5 6 7 8 9
@@ -66,11 +66,13 @@ for x in range(10):
    for x in range(10)
        print(x)
    ```
-2. ```python
-   for i in range(10):
-       print(i)
+2.  ```python
+    for i in range(10):
+        print(i)
 
-   ```
+    ```
+
+
 
 2
 
@@ -82,10 +84,12 @@ for 語法的最後面要加冒號
    while True:
        print("hi")
    ```
-2. ```python
-   while true:
-       print("hi")
-   ```
+2.  ```python
+    while true:
+        print("hi")
+    ```
+
+
 
 1
 
@@ -105,7 +109,7 @@ for i in range(5):
 
 1
 
-```text
+```
 A ***
 A ***
 A ***
@@ -115,7 +119,7 @@ A ***
 
 2
 
-```text
+```
 A **
 A **
 A **
@@ -125,7 +129,7 @@ A **
 
 3
 
-```text
+```
 A 
 ***
 A 
@@ -140,7 +144,7 @@ A
 
 1
 
-注意print\("A", end=' '\)因為有修改end所以不會換行，還有break的後面已經沒有程式碼了，所以break沒有起任何作用
+注意print("A", end=' ')因為有修改end所以不會換行，還有break的後面已經沒有程式碼了，所以break沒有起任何作用
 
 ## 下列程式碼會輸出什麼？
 
@@ -165,7 +169,7 @@ print(x)
 
 20
 
-慢慢窮舉i從1~5, j從1~5
+慢慢窮舉i從1\~5, j從1\~5
 
 ```python
 i + j
@@ -195,13 +199,13 @@ while x < 10:
 
 1
 
-```text
+```
 YES! YES! YES! YES!
 ```
 
 2
 
-```text
+```
 YES! YES! YES! YES!
 YES! YES! YES! YES!
 YES! YES! YES! YES!
@@ -211,7 +215,7 @@ YES! YES! YES! YES!
 
 3
 
-```text
+```
 YES! YES! YES! YES!
 YES! YES! YES! YES!
 YES! YES! YES! YES!
@@ -246,8 +250,8 @@ print(t)
 ```
 
 1. n\*m
-2. \(n+1\) \* \(m+1\)
-3. n \* \(m + 1\)
+2. (n+1) \* (m+1)
+3. n \* (m + 1)
 4. n \* n
 
 
@@ -267,10 +271,10 @@ for i in range(n):
 print(x)
 ```
 
-1. n\(n+1\)\*sqrt\(log2\(𝑛\)\)
-2. n2\(n+1\)/2
-3. **n\(n+1\)\[ \(log2\(n\)\) + 1 \] / 2**
-4. n\(n+1\)/2
+1. n(n+1)\*sqrt(log2(𝑛))
+2. n2(n+1)/2
+3. **n(n+1)\[ (log2(n)) + 1 ] / 2**
+4. n(n+1)/2
 
 ### 請問執行下列程式的時候，哪一行可能永遠不會被執行到
 
@@ -289,7 +293,7 @@ if a <= 11:
 3. **a = 5**
 4. 每一行都執行得到
 
-### 右側程式片段中執行後若要印出下 列圖案，\(a\) 的條件判斷式該如何 設定？
+### 右側程式片段中執行後若要印出下 列圖案，(a) 的條件判斷式該如何 設定？
 
 ```python
 for i in range(3):
@@ -371,4 +375,3 @@ while i <= N:
 
 print(i, x)
 ```
-
