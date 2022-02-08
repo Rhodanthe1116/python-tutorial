@@ -34,20 +34,50 @@ my_function()  # 呼叫函數
 ### 有參數，沒回傳
 
 ```python
-def hi(name):
+def greet(name):
     print("hello", name)
 
-hi("Benson")
-hi("Menson")
+greet("Benson")
+greet("Menson")
 ```
 
 ### 有參數，有回傳
+
+#### 範例一：求面積
 
 ```python
 def area(width, height):
     return width * height
 
 print(area(10, 3))
+```
+
+#### 範例二：判斷密碼強度
+
+```python
+def is_good_password(password):
+    if len(password) < 8:
+        return False
+    else:
+        return True
+
+def signup(username, password):
+    if not is_good_password(password):
+        return "密碼不夠強"
+        
+```
+
+#### 範例三：圓柱體面積
+
+{% embed url="https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html" %}
+
+![](<../../.gitbook/assets/image (120).png>)
+
+```python
+def volume_cylinder(radius, height):
+    pi = 3.141592653589
+    volume = pi * radius ** 2 * height
+    return volume
 ```
 
 ### 預設參數值
@@ -105,7 +135,5 @@ def my_function(*kids):
 my_function("Emil", "Tobias", "Linus")
 ```
 
-## 
-
-
+##
 

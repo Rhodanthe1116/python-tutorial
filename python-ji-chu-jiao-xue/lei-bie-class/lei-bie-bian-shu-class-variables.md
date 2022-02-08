@@ -9,21 +9,146 @@ class Circle:
 
 因為圓周率對於每個圓都一樣，不論圓的半徑是多少，都可以當作3.14，所以可以設成類別變數，讓所有圓共享。
 
-## 取用變數
+## 類別變數的共通性
 
-在前個部分，創造出了一個類別與實例，也為他設定了屬性，但實際要如何使用呢？其實大致就跟一般使用變數一樣，只要利用`.`來表明屬性是屬於哪個物件的即可：
+對class variable的修改，會讓所有實例的值一起更動
+
+雖然比較少見，但有時候我們會用到此性質
+
+在有些語言中，稱為**Static**
 
 ```python
 class Circle:
-    pi = 3.14
-    
-new_circle = Circle()
+  pi = 3.14 # class variable
 
-print("The value of pi of circles is {}.".format(new_circle.pi))
-# The value of pi of circles is 3.14.
+# 可以直接利用class名稱來取用
+print(Circle.pi) # 3.14 class variable
+
+red_circle = Circle()
+green_circle = Circle()
+
+# 對class variable的修改，會讓所有實例的值一起更動
+Circle.pi = 3.14159
+print(Circle.pi) # 3.14159
+print(red_circle.pi) # 3.14159
+print(green_circle.pi) # 3.14159
 ```
 
-在`class`的定義中，定義了`pi`這個類別變數，並將其值設為`3.14`，而在第4行的`new_circle`實例便會自動擁有這個類別變數，之後在程式中，若要使用這個變數，只要使用`.`來取得即可。使用方法與一般變數相同。
+## 實例變數覆蓋類別變數
+
+### 為什麼可以混用
+
+一般來說，會將每個實例共有且不會改變的性質設為類別變數，而每個實例都不同的性質設為實例變數，通常在初始化的時候進行實例變數的設值，來減少程式碼的重複，關於在初始化時建立實例變數將在下個部分教到。
+
+雖然類別變數和實例變數有區隔，但在Python中，若是執行下列程式：
+
+```python
+class Circle:
+  # Default color is red.
+  color = "red" # class variable
+
+red_circle = Circle()
+green_circle = Circle()
+
+# Overide the class variable.
+green_circle.color = "green" # becomes instance variable
+```
+
+上列程式碼有個圓，並且有個`color`類別變數，但在第`9`行的地方，用了實例變數的方式設了值，這時候**實例變數會覆蓋類別變數**，讓`green_circle.color`變成實例變數。
+
+因為類別變數與實例變數的取用方式一樣，都是用`.`，所以以上程式碼不會發生任何錯誤。
+
+### 可能造成的問題1
+
+```python
+class Circle:
+  pi = 3.14 # class variable
+
+red_circle = Circle()
+green_circle = Circle()
+
+# Overide the class variable.
+green_circle.pi = 3.1 # instance variable
+
+print(Circle.pi) # 3.14 class variable
+print(red_circle.pi) # 3.14 class variable
+print(green_circle.pi) # 3.1 instance variable <------
+
+
+Circle.pi = 3.14159 # class variable <------ 更改了class variable
+print(Circle.pi) # 3.14159 class variable
+print(red_circle.pi) # 3.14159 class variable
+print(green_circle.pi) # 3.1 instance variable <------ 沒有一起改
+```
+
+### 可能造成的問題2
+
+{% embed url="https://docs.python.org/3/tutorial/classes.html#class-and-instance-variables" %}
+
+Generally speaking, instance variables are for data unique to each instance and class variables are for attributes and methods shared by all instances of the class:
+
+```python
+class Dog:
+
+    kind = 'canine'         # class variable shared by all instances
+
+    def __init__(self, name):
+        self.name = name    # instance variable unique to each instance
+
+>>> d = Dog('Fido')
+>>> e = Dog('Buddy')
+>>> d.kind                  # shared by all dogs
+'canine'
+>>> e.kind                  # shared by all dogs
+'canine'
+>>> d.name                  # unique to d
+'Fido'
+>>> e.name                  # unique to e
+'Buddy'
+```
+
+As discussed in [A Word About Names and Objects](https://docs.python.org/3/tutorial/classes.html#tut-object), shared data can have possibly surprising effects with involving [mutable](https://docs.python.org/3/glossary.html#term-mutable) objects such as lists and dictionaries. For example, the _tricks_ list in the following code should not be used as a class variable because just a single list would be shared by all _Dog_ instances:
+
+```python
+class Dog:
+
+    tricks = []             # mistaken use of a class variable
+
+    def __init__(self, name):
+        self.name = name
+
+    def add_trick(self, trick):
+        self.tricks.append(trick)
+
+>>> d = Dog('Fido')
+>>> e = Dog('Buddy')
+>>> d.add_trick('roll over')
+>>> e.add_trick('play dead')
+>>> d.tricks                # unexpectedly shared by all dogs
+['roll over', 'play dead']
+```
+
+Correct design of the class should use an instance variable instead:
+
+```python
+class Dog:
+
+    def __init__(self, name):
+        self.name = name
+        self.tricks = []    # creates a new empty list for each dog
+
+    def add_trick(self, trick):
+        self.tricks.append(trick)
+
+>>> d = Dog('Fido')
+>>> e = Dog('Buddy')
+>>> d.add_trick('roll over')
+>>> e.add_trick('play dead')
+>>> d.tricks
+['roll over']
+>>> e.tricks
+['play dead']
+```
 
 ## 💻練習
 
@@ -51,4 +176,3 @@ print("Every dog has {} legs.".format(husky.legs))
 ```
 {% endtab %}
 {% endtabs %}
-

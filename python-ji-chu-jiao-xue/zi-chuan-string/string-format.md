@@ -84,10 +84,18 @@ print(myorder.format(quantity, itemID, price))
 ## 利用關鍵字
 
 ```python
-print('Coordinates: {latitude}, {longitude}'.format(latitude='37.24N', longitude='-115.81W'))
+latitude = input()
+longitude = input()
 
-coord = {'latitude': '37.24N', 'longitude': '-115.81W'}
-print('Coordinates: {latitude}, {longitude}'.format(**coord))
-
+print('座標: {latitude}, {longitude}'.format(
+    latitude=latitude,
+    longitude=longitude
+))
 ```
 
+## 進階用法
+
+```python
+coord = {'latitude': '37.24N', 'longitude': '-115.81W'}
+print('座標: {latitude}, {longitude}'.format(**coord))
+```

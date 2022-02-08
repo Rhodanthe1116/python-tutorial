@@ -103,7 +103,7 @@ del s
 print(s)
 ```
 
-### 聯集 Union\(OR\)
+### 聯集 Union(OR)
 
 ![](../../.gitbook/assets/union.jpg)
 
@@ -136,7 +136,7 @@ s1.difference_update(s2)
 print(s1)
 ```
 
-### 交集 Intersection\(AND\)
+### 交集 Intersection(AND)
 
 ![](../../.gitbook/assets/inter.jpg)
 
@@ -156,7 +156,7 @@ s1.intersection(s2)
 print(s1)
 ```
 
-### 對稱差集 Symmetric Difference\(XOR\)
+### 對稱差集 Symmetric Difference(XOR)
 
 ![](../../.gitbook/assets/sys.jpg)
 
@@ -187,7 +187,7 @@ print(s2.issubset(s1))
 print(s1.issubset(s2))
 ```
 
-###  **父集（**包含） Upperset
+### &#x20;**父集（**包含） Upperset
 
 ```python
 s1 = {0, 1, 2, 3, 4}
@@ -212,18 +212,17 @@ print(a ^ b)                              # 對稱差集
 
 
 
-| Operator | Description |
-| :--- | :--- |
-| A \| B A.union\(B\) | Returns a set which is the union of sets `A` and `B` |
-| A \|= B A.update\(B\) | Adds all elements of array `B` to the set `A`. |
-| A & B A.intersection\(B\) | Returns a set which is the intersection of sets `A` and `B`. |
-| A &= B A.intersection\_update\(B\) | Leaves in the set `A` only items that belong to the set `B`. |
-| A - B A.difference\(B\) | Returns the set difference of `A` and `B` \(the elements included in `A`, but not included in `B`\). |
-| A -= B A.difference\_update\(B\) | Removes all elements of `B` from the set `A`. |
-| A ^ B A.symmetric\_difference\(B\) | Returns the symmetric difference of sets `A` and `B` \(the elements belonging to either `A` or `B`, but not to both sets simultaneously\). |
-| A ^= B A.symmetric\_difference\_update\(B\) | Writes in `A` the symmetric difference of sets `A` and `B`. |
-| A &lt;= B A.issubset\(B\) | Returns `true` if `A` is a subset of `B`. |
-| A &gt;= B A.issuperset\(B\) | Returns `true` if `B` is a subset of `A`. |
-| A &lt; B | Equivalent to `A <= B and A != B` |
-| A &gt; B | Equivalent to `A >= B and A != B` |
-
+| Operator                                          | Description                                                                                                                              |
+| ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>A | B<br>A.union(B)</p>                        | Returns a set which is the union of sets `A` and `B`                                                                                     |
+| <p>A |= B<br>A.update(B)</p>                      | Adds all elements of array `B` to the set `A`.                                                                                           |
+| <p>A &#x26; B<br>A.intersection(B)</p>            | Returns a set which is the intersection of sets `A` and `B`.                                                                             |
+| <p>A &#x26;= B<br>A.intersection_update(B)</p>    | Leaves in the set `A` only items that belong to the set `B`.                                                                             |
+| <p>A - B<br>A.difference(B)</p>                   | Returns the set difference of `A` and `B` (the elements included in `A`, but not included in `B`).                                       |
+| <p>A -= B<br>A.difference_update(B)</p>           | Removes all elements of `B` from the set `A`.                                                                                            |
+| <p>A ^ B<br>A.symmetric_difference(B)</p>         | Returns the symmetric difference of sets `A` and `B` (the elements belonging to either `A` or `B`, but not to both sets simultaneously). |
+| <p>A ^= B<br>A.symmetric_difference_update(B)</p> | Writes in `A` the symmetric difference of sets `A` and `B`.                                                                              |
+| <p>A &#x3C;= B<br>A.issubset(B)</p>               | Returns `true` if `A` is a subset of `B`.                                                                                                |
+| <p>A >= B<br>A.issuperset(B)</p>                  | Returns `true` if `B` is a subset of `A`.                                                                                                |
+| A < B                                             | Equivalent to `A <= B and A != B`                                                                                                        |
+| A > B                                             | Equivalent to `A >= B and A != B`                                                                                                        |

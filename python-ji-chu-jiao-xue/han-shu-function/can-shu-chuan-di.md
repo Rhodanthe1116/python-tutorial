@@ -6,11 +6,11 @@
 
 在 Python 中，所有東西都是一個物件 Object，我們之前所創造出來的數字、字串、串列也都是物件，而每個物件有：
 
-| Name | Description | Example1 | Example2 |
-| :--- | :--- | :--- | :--- |
-| Value | 值 | `1000` | `"apple"` |
-| Type | 類型 | `int` | `string` |
-| ID | 唯一識別，類似地址或身分證，對應記憶體位置 | `1574558016` | `140135852055856` |
+| Name  | Description           | Example1     | Example2          |
+| ----- | --------------------- | ------------ | ----------------- |
+| Value | 值                     | `1000`       | `"apple"`         |
+| Type  | 類型                    | `int`        | `string`          |
+| ID    | 唯一識別，類似地址或身分證，對應記憶體位置 | `1574558016` | `140135852055856` |
 
 可用內建函數來取得：
 
@@ -54,7 +54,7 @@ print(id(y))
 
 在 Python 中，物件可以分成**可變 mutable** 和**不可變 immutable，**差別在於創造之後還可不可以改變其值。
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](<../../.gitbook/assets/image (15).png>)
 
 
 
@@ -95,8 +95,8 @@ print(id(i))
 ```python
 def my_function(ly):
     ly[0] = 999
-    
     print("after ly[0] = 999")
+    
 lx = [0, 1, 2, 3, 4]
 print("lx =", lx)
 my_function(lx)
@@ -123,4 +123,3 @@ print("x =", x)
 實際上情況類似於：
 
 ![](../../.gitbook/assets/im.gif)
-
