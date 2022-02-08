@@ -2,7 +2,7 @@
 
 ## 示意圖
 
-![](<../../.gitbook/assets/image (64).png>)
+![](<../../.gitbook/assets/image (94).png>)
 
 ## 語法
 
@@ -30,7 +30,7 @@ data = ['a', 3, '7', 2.5, -4]
 
 ## 宣告
 
-![](<../../.gitbook/assets/image (65).png>)
+![](<../../.gitbook/assets/image (73).png>)
 
 ```python
 # 三種方式宣告

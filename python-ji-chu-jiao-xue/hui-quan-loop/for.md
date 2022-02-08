@@ -2,15 +2,15 @@
 
 
 
-![](<../../.gitbook/assets/image (58).png>)
+![](<../../.gitbook/assets/image (5).png>)
 
-![](<../../.gitbook/assets/image (54).png>)
+![](<../../.gitbook/assets/image (27).png>)
 
 ## **while到for**
 
-![](<../../.gitbook/assets/image (55).png>)
+![](<../../.gitbook/assets/image (15).png>)
 
-![](<../../.gitbook/assets/image (56).png>)
+![](<../../.gitbook/assets/image (42).png>)
 
 ## 簡單範例
 

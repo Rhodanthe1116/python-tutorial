@@ -1,8 +1,8 @@
 # 如果不只兩種可能 if … elif … else 句型
 
-![](<../../.gitbook/assets/image (62).png>)
+![](<../../.gitbook/assets/image (50).png>)
 
-![](<../../.gitbook/assets/image (63).png>)
+![](<../../.gitbook/assets/image (59).png>)
 
 ## 實際例子一
 

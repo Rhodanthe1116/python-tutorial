@@ -1,6 +1,6 @@
 # 二維串列走訪
 
-![](<../../.gitbook/assets/image (98).png>)
+![](<../../.gitbook/assets/image (82).png>)
 
 ## 複習：一維串列走訪
 
@@ -20,7 +20,7 @@ print(len(data[0]))
 # 一段藍色的長度，輸出5
 ```
 
-![](<../../.gitbook/assets/image (99).png>)
+![](<../../.gitbook/assets/image (78).png>)
 
 ## range()走訪
 
@@ -54,7 +54,7 @@ for i in data:
 # 17 36 48 87 63 92 73 64 33 81 88 76 32 55 47
 ```
 
-![](<../../.gitbook/assets/image (101).png>)
+![](<../../.gitbook/assets/image (77).png>)
 
 ## range() + list()
 

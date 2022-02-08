@@ -398,7 +398,7 @@ def F(n):
     return x
 ```
 
-![](<../../.gitbook/assets/image (114).png>)
+![](<../../.gitbook/assets/image (115).png>)
 
 1. A
 2. B
@@ -521,7 +521,7 @@ List 是一個陣列，裡面的元素是 element， 它的定義如上程式碼
 
 List 中的每一個 element 利用 next 這個整數變數來記錄下一個 element 在陣列中的位置，如果沒有下一個 element， next 就會記錄-1。所有的 element 串成了一 個串列 (linked list)。例如在 list 中有三筆 資料
 
-![](<../../.gitbook/assets/image (116).png>)
+![](<../../.gitbook/assets/image (114).png>)
 
 它所代表的串列如下圖
 

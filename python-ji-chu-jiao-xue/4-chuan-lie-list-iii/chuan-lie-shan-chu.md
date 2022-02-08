@@ -4,7 +4,7 @@
 
 串列的 pop 操作可將一個元素從串列中取出並刪除
 
-![](<../../.gitbook/assets/image (83).png>)
+![](<../../.gitbook/assets/image (96).png>)
 
 ```python
 del = record.pop()

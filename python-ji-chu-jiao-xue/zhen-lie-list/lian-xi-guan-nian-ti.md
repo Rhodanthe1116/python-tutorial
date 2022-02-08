@@ -160,7 +160,7 @@ print(my_list[-2], end=' ')
 
 參考下圖
 
-![](<../../.gitbook/assets/image (106).png>)
+![](<../../.gitbook/assets/image (116).png>)
 
 ## 請問下列程式會輸出什麼？
 

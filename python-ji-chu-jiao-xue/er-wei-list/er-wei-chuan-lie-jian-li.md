@@ -33,7 +33,7 @@
 
 錯誤：
 
-![](<../../.gitbook/assets/image (95).png>)
+![](<../../.gitbook/assets/image (93).png>)
 
 原因：會改到同一個
 
@@ -50,7 +50,7 @@ print(data)
 [[0, 0, 9, 0, 0], [0, 0, 9, 0, 0], [0, 0, 9, 0, 0]]
 ```
 
-![](<../../.gitbook/assets/image (96).png>)
+![](<../../.gitbook/assets/image (70).png>)
 
 ## 運用 for 迴圈
 
@@ -69,7 +69,7 @@ print(data)
 [0, 0, 0, 0, 0]]
 ```
 
-![](<../../.gitbook/assets/image (97).png>)
+![](<../../.gitbook/assets/image (74).png>)
 
 ## append() 和 +
 

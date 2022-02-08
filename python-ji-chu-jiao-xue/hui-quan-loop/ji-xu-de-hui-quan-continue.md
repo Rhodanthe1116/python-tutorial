@@ -15,7 +15,7 @@ while i < 6:
     print(i)
 ```
 
-![](<../../.gitbook/assets/image (53).png>)
+![](<../../.gitbook/assets/image (2).png>)
 
 {% hint style="info" %}
 **與 " 沒有 " continue 句型比較 :**

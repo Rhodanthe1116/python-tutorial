@@ -2,9 +2,9 @@
 
 ## 直接看範例
 
-![](<../../.gitbook/assets/image (59).png>)
+![](<../../.gitbook/assets/image (62).png>)
 
-![](<../../.gitbook/assets/image (60).png>)
+![](<../../.gitbook/assets/image (14).png>)
 
 {% hint style="warning" %}
 **for迴圈的變數計數器一旦決定好範圍就不受任何干擾**

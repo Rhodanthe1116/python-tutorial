@@ -2,7 +2,7 @@
 
 **巢狀 ( nested ) 控制結構**&#x20;
 
-![](<../../.gitbook/assets/image (43).png>)
+![](<../../.gitbook/assets/image (54).png>)
 
 ## **例子: 判斷位子**
 
@@ -20,4 +20,4 @@ if x > 0:
 
 **請使用巢狀結構寫出一個可以判斷一個點在直角座標上是第幾象限**
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../.gitbook/assets/image (38).png>)

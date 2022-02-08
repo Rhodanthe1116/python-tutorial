@@ -36,7 +36,7 @@ print(chr(97)) # a
 
 將所有文字同時位移k
 
-![1](<.gitbook/assets/image (107).png>)
+![1](<.gitbook/assets/image (106).png>)
 
 ### 範例
 
@@ -124,7 +124,7 @@ print(f'ciphertext: {cipher}')
 1. 暴力破解：嘗試各種偏移k，並從中尋找看起來正確的
 2. 頻率分析：以英文為例，e, t這些字母很常出現，把密文中常出現的字視為e或t，推出偏移量k
 
-![](<.gitbook/assets/image (109).png>)
+![](<.gitbook/assets/image (111).png>)
 
 #### 暴力破解
 
@@ -251,7 +251,7 @@ print(f'plaintext:  {plain}')
 * 之前學過的AND, OR, NOT
 * 再加一個XOR
 
-![](<.gitbook/assets/image (110).png>)
+![](<.gitbook/assets/image (108).png>)
 
 XOR
 
@@ -287,7 +287,7 @@ r       114	    0111 0010	    72
 '''
 ```
 
-![](<.gitbook/assets/image (113).png>)
+![](<.gitbook/assets/image (109).png>)
 
 * 不是文字，沒辦法輸出，因此須以hex十六進位儲存&#x20;
 * 且Python的bytes型態輸出會以十六進位顯示，可以解決字串輸出問題&#x20;

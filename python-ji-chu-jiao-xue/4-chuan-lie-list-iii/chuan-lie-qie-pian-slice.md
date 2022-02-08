@@ -24,7 +24,7 @@ data[1:5]
 
 注意：不會取到結束走訪的元素。
 
-![](<../../.gitbook/assets/image (86).png>)
+![](<../../.gitbook/assets/image (64).png>)
 
 ```python
 data      # [17, 36, 48, 80, 77, 21, 67, 18, 55]
@@ -39,7 +39,7 @@ data[2:7] # [48, 80, 77, 21, 67]
 data[1:-2] # [36, 48, 80, 77, 21, 67]
 ```
 
-![](<../../.gitbook/assets/image (85).png>)
+![](<../../.gitbook/assets/image (104).png>)
 
 類似range()，公差省略不寫表示公差為1
 

@@ -2,7 +2,7 @@
 
 ## ****
 
-![](<../../.gitbook/assets/image (38).png>)
+![](<../../.gitbook/assets/image (4).png>)
 
 ## **簡單範例**
 
@@ -17,7 +17,7 @@ else:
 
 ## 實際範例
 
-![](<../../.gitbook/assets/image (37).png>)
+![](../../.gitbook/assets/image.png)
 
 ```python
 print('計算平均的程式')

@@ -34,4 +34,4 @@ Python 源碼通常以 .py 作為副檔名。
 
 **高階語言**需要透過中介程式將我們的程式源碼翻譯成**電腦指令**，再由電腦執行。
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (39).png>)

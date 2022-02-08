@@ -89,7 +89,7 @@ while True:
 
 放到網頁上
 
-![](<.gitbook/assets/image (111).png>)
+![](<.gitbook/assets/image (110).png>)
 
 ![](broken-reference)
 

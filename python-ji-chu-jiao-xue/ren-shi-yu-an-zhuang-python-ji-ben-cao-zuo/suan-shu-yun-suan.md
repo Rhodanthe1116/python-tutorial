@@ -25,6 +25,6 @@
 * 次方 (最優先)
 * 乘/除/餘 (優先)
 
-![](<../../.gitbook/assets/image (32).png>)
+![](<../../.gitbook/assets/image (47).png>)
 
 ## &#x20;

@@ -22,7 +22,7 @@ print(a)
 
 ## **split( )轉型**
 
-![](<../../.gitbook/assets/image (66).png>)
+![](<../../.gitbook/assets/image (75).png>)
 
 ### **範例**
 
@@ -48,7 +48,7 @@ print(data)
 
 ### 範例
 
-![](<../../.gitbook/assets/image (67).png>)
+![](<../../.gitbook/assets/image (91).png>)
 
 ```python
 a = input().split()

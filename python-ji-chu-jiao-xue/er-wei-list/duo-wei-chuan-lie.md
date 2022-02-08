@@ -1,6 +1,6 @@
 # 多維串列
 
-![](<../../.gitbook/assets/image (102).png>)
+![](<../../.gitbook/assets/image (97).png>)
 
 對於以上的data：
 
@@ -40,7 +40,7 @@ print(data[1][0][1]) == 9
   * 輸入其他值都代表程式結束
 * 每次執行完一個指令後都會返回這個功能介面
 
-![功能介面](<../../.gitbook/assets/image (103).png>)
+![功能介面](<../../.gitbook/assets/image (76).png>)
 
 #### 功能1: 新增學生並輸出總表
 
@@ -100,7 +100,7 @@ a 80 100
 
 ### 提示：
 
-![](<../../.gitbook/assets/image (104).png>)
+![](<../../.gitbook/assets/image (65).png>)
 
 ### **思考流程:**
 

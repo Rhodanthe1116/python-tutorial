@@ -4,7 +4,7 @@
 
 如：遊戲中的血量、飲料杯的容量等。
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (12).png>)
 
 ## 每個變數有以下三種屬性：
 

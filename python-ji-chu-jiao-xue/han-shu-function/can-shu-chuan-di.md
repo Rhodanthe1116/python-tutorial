@@ -54,7 +54,7 @@ print(id(y))
 
 在 Python 中，物件可以分成**可變 mutable** 和**不可變 immutable，**差別在於創造之後還可不可以改變其值。
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../../.gitbook/assets/image (44).png>)
 
 
 

@@ -4,7 +4,7 @@
 
 不斷執行相同或類似的東西
 
-![](<../../.gitbook/assets/image (50).png>)
+![](<../../.gitbook/assets/image (11).png>)
 
 ## 簡單範例
 
@@ -40,7 +40,7 @@ if i < 6:
 
 ## **實際範例**
 
-![](<../../.gitbook/assets/image (61).png>)
+![](<../../.gitbook/assets/image (60).png>)
 
 ```python
 print('計算總和的程式')
@@ -58,7 +58,7 @@ print('總和是',total)
 **大家來找碴**
 {% endhint %}
 
-![](<../../.gitbook/assets/image (51).png>)
+![](<../../.gitbook/assets/image (56).png>)
 
 ## **任務: 長方形**
 

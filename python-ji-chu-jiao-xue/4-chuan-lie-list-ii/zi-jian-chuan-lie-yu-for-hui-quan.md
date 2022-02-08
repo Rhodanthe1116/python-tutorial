@@ -12,9 +12,9 @@ for d in data:
 
 透過for迴圈與int()，可以依序取得 data內的元素且為整數形態
 
-![](<../../.gitbook/assets/image (78).png>)
+![](<../../.gitbook/assets/image (89).png>)
 
-![](<../../.gitbook/assets/image (79).png>)
+![](<../../.gitbook/assets/image (103).png>)
 
 ## append() 或 + 搭配for迴圈
 

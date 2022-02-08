@@ -1,12 +1,12 @@
 # 高中生程式解題系統 — ZeroJudge
 
-![](<../../.gitbook/assets/image (28).png>)
+![](<../../.gitbook/assets/image (25).png>)
 
 網址 : https://zerojudge.tw/
 
 ## **第一題**
 
-![](<../../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (19).png>)
 
 註冊、登入，並打開以下題目
 
@@ -16,13 +16,13 @@
 
 搜尋題目 d483 : hello, world
 
-![](<../../.gitbook/assets/image (31).png>)
+![](<../../.gitbook/assets/image (37).png>)
 
 送出解答，貼上程式碼
 
 
 
-![](<../../.gitbook/assets/image (30).png>)
+![](<../../.gitbook/assets/image (28).png>)
 
 {% hint style="success" %}
 成功在ZeroJudge上完成一題！

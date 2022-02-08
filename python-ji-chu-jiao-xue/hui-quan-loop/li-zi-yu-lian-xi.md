@@ -65,7 +65,7 @@ print('a ~ b 的總和是',sum)
 
 
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (16).png>)
 
 **1. 每一個大框框內哪一個數字都不會動呢?**
 

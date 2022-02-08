@@ -18,7 +18,7 @@
 63.666666666666664
 ```
 
-![](<../../.gitbook/assets/image (90).png>)
+![](<../../.gitbook/assets/image (66).png>)
 
 ## 二維串列
 
@@ -27,7 +27,7 @@ data = [[17, 36, 48, 87, 63], [92, 73, 64, 33, 81], [88, 76, 32, 55,
 47]]
 ```
 
-![](<../../.gitbook/assets/image (91).png>)
+![](<../../.gitbook/assets/image (84).png>)
 
 此時data就是一個二維串列！
 
@@ -45,7 +45,7 @@ data = [
 
 ## 二維串列的索引值
 
-![](<../../.gitbook/assets/image (93).png>)
+![](<../../.gitbook/assets/image (98).png>)
 
 ## 動動腦
 

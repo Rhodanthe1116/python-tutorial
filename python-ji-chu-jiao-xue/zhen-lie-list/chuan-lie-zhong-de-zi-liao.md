@@ -4,7 +4,7 @@
 
 * **串列的元素從0開始**
 
-![](<../../.gitbook/assets/image (69).png>)
+![](<../../.gitbook/assets/image (101).png>)
 
 ```python
 print(data[0], data[3]) 
@@ -20,7 +20,7 @@ print(data[4])
 
 ### 範例 
 
-![](<../../.gitbook/assets/image (70).png>)
+![](<../../.gitbook/assets/image (99).png>)
 
 ```python
 print(data[2]) 
@@ -45,7 +45,7 @@ print(data[num])
 
 例如原本的串列：
 
-![](<../../.gitbook/assets/image (71).png>)
+![](<../../.gitbook/assets/image (86).png>)
 
 經過：
 
@@ -56,4 +56,4 @@ data[2] = 22
 
 會變成：
 
-![](<../../.gitbook/assets/image (72).png>)
+![](<../../.gitbook/assets/image (92).png>)

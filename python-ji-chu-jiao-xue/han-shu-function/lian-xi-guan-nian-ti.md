@@ -7,10 +7,6 @@
 3. create myFunction():
 4. func myFunction():
 
-1
-
-def為python的語法
-
 ## 下列哪個內建函數會回傳物件的專屬號碼？
 
 1. ref()

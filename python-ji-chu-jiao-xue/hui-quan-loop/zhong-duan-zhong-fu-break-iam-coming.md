@@ -11,7 +11,7 @@ while i < 6:
 	i += 1
 ```
 
-![](<../../.gitbook/assets/image (52).png>)
+![](<../../.gitbook/assets/image (51).png>)
 
 {% hint style="info" %}
 **與 " 沒有 " break 句型比較 :**

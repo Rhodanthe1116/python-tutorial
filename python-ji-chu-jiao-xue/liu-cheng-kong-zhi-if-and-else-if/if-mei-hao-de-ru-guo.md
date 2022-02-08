@@ -11,7 +11,7 @@ if b > a:
 
 ## **實際範例**
 
-![](<../../.gitbook/assets/image (39).png>)
+![](<../../.gitbook/assets/image (26).png>)
 
 ```python
 print('計算平均的程式')
