@@ -2,7 +2,7 @@
 
 ## 網頁原理
 
-![](<.gitbook/assets/image (125).png>)
+![](<.gitbook/assets/image (120).png>)
 
 ## 伺服器
 
@@ -57,11 +57,15 @@ Repl.it
 
 ## python
 
-引入一些需要的函數庫，如flask可以幫我們處理伺服器的東東，random可以幫我們生成隨機答案
+引入一些需要的函數庫，如 FastAPI 可以幫我們處理伺服器的東東，random 可以幫我們生成隨機答案
 
 
 
 
+
+* [https://fastapi-template.hwchang.repl.co/](https://fastapi-template.hwchang.repl.co)
+* [https://fastapi-template.hwchang.repl.co/docs](https://fastapi-template.hwchang.repl.co/docs)
+* [https://fastapi-template.hwchang.repl.co/comments](https://fastapi-template.hwchang.repl.co/comments)
 
 ## 網路溝通方法：HTTP
 
@@ -98,11 +102,11 @@ Repl.it
 * author: 留言者
 * content: 留言內容
 
-![](<.gitbook/assets/image (126).png>)
+![](<.gitbook/assets/image (126) (1).png>)
 
 **回應的資料（Response Body）**
 
 成功建立，回傳留言以及留言時間
 
-![](<.gitbook/assets/image (120).png>)
+![](<.gitbook/assets/image (120) (1).png>)
 
