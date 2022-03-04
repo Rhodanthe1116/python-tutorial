@@ -11,7 +11,7 @@ description: >-
 
 ### Ball
 
-![](<../../.gitbook/assets/image (122).png>)
+![](<../../.gitbook/assets/image (122) (1).png>)
 
 ```python
 import arcade
