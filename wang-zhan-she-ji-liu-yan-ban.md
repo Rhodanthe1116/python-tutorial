@@ -1,10 +1,10 @@
 # 網站設計 - 留言板
 
-### 網頁原理
+## 網頁原理
 
 ![](<.gitbook/assets/image (125).png>)
 
-### 伺服器
+## 伺服器
 
 Repl.it
 
@@ -12,7 +12,7 @@ Repl.it
 
 [https://replit.com/@hwchang/fastapi-template](https://replit.com/@hwchang/fastapi-template)
 
-### 說明
+## 說明
 
 使用Python以及我預先寫好的網頁模板來完成一個線上留言板
 
@@ -22,7 +22,7 @@ Repl.it
 
 這個模板已經寫好很多東西了，都是用Python來處理邏輯，另外用了叫做Html及Css的東西來寫一些介面。另外為了讓這個模板變得有趣一點，我加了留言區，可以給大家留言，所以做完終極密碼可以丟給別人玩玩看><，感覺比較好笑。寫完之後如果對修改其他東西有興趣的話，可以去研究一下其他東西，或是跟我討論～
 
-### 模板使用步驟
+## 模板使用步驟
 
 1. 點擊上方模板，進入頁面後點擊左上方的下拉式箭頭，如下圖的紅框 1
 2. 點擊左下方的「fork」來複製一份，如下圖的紅框 2（這時候可能要登入）
@@ -30,7 +30,7 @@ Repl.it
 
 ![](<.gitbook/assets/image (122).png>)
 
-### 檔案架構
+## 檔案架構
 
 ![](<.gitbook/assets/image (124).png>)
 
@@ -39,7 +39,7 @@ Repl.it
 * `styles.css`: css檔案提供html檔造型
 * `index.html`: html檔案提供介面骨架
 
-### html複習
+## html複習
 
 ![](<.gitbook/assets/image (123).png>)
 
@@ -51,11 +51,11 @@ Repl.it
 
 
 
-### css
+## css
 
 不特別介紹，大致上就是可以改變網頁造型的東西
 
-### python
+## python
 
 引入一些需要的函數庫，如flask可以幫我們處理伺服器的東東，random可以幫我們生成隨機答案
 
@@ -63,7 +63,7 @@ Repl.it
 
 
 
-### 網路溝通方法：HTTP
+## 網路溝通方法：HTTP
 
 我們跟伺服器請求（Request），伺服器給我們回應（Response）
 
@@ -79,13 +79,17 @@ Repl.it
 * 取得留言：`GET /comments/`
 * 新增留言：`POST /comments/`
 
-#### 取得留言：`GET /comments/`
+### 取得留言：`GET /comments/`
+
+#### **回應的資料（Response Body）**
 
 不同於之前是取得html，其實伺服器也可以只給我們資料，也就是以類似list + dict的形式回傳
 
 ![](<.gitbook/assets/image (121).png>)
 
-#### 新增留言：`POST /comments/`
+### 新增留言：`POST /comments/`
+
+#### **請求參數 Request Body**
 
 新增當然需要一些參數，稱作 **Request Body**
 
@@ -96,5 +100,9 @@ Repl.it
 
 ![](<.gitbook/assets/image (126).png>)
 
+**回應的資料（Response Body）**
 
+成功建立，回傳留言以及留言時間
+
+![](<.gitbook/assets/image (120).png>)
 

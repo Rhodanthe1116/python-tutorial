@@ -71,7 +71,7 @@ def signup(username, password):
 
 {% embed url="https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html" %}
 
-![](<../../.gitbook/assets/image (120) (1).png>)
+![](<../../.gitbook/assets/image (120) (1) (1).png>)
 
 ```python
 def volume_cylinder(radius, height):
