@@ -12,7 +12,7 @@ Repl.it
 
 [https://replit.com/@hwchang/fastapi-template](https://replit.com/@hwchang/fastapi-template)
 
-## 說明
+## 模板
 
 使用Python以及我預先寫好的網頁模板來完成一個線上留言板
 
@@ -49,11 +49,18 @@ Repl.it
 
 ![](<.gitbook/assets/image (128).png>)
 
+### 練習
 
+* h1: 把blablabla's Website改成自己的名字
+* a: 把fb連結改成自己的profile連結
 
 ## css
 
 不特別介紹，大致上就是可以改變網頁造型的東西
+
+### 練習
+
+* body: 把background, color改成自己喜歡的顏色
 
 ## python
 
@@ -61,7 +68,18 @@ Repl.it
 
 
 
+## 網址結構
 
+* Scheme：協定
+* Domain/host：網域
+* Path：路徑
+* Query：查詢參數
+
+![](<.gitbook/assets/image (132).png>)
+
+![](<.gitbook/assets/image (131).png>)
+
+## 會用到的網址
 
 * [https://fastapi-template.hwchang.repl.co/](https://fastapi-template.hwchang.repl.co)
 * [https://fastapi-template.hwchang.repl.co/docs](https://fastapi-template.hwchang.repl.co/docs)
@@ -73,7 +91,7 @@ Repl.it
 
 今天介紹以下兩種請求（Request）：
 
-* 取得：GET
+* 取得：GET，一般我們透過瀏覽器輸入網址就是GET
 * 新增：POST
 
 舉例來說
@@ -109,4 +127,6 @@ Repl.it
 成功建立，回傳留言以及留言時間
 
 ![](<.gitbook/assets/image (120) (1).png>)
+
+## FastAPI
 
