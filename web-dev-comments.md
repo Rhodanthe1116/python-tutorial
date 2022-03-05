@@ -1,4 +1,4 @@
-# 網站設計 - 留言板
+# 網站開發 - 留言板
 
 ## 網頁原理
 
@@ -35,14 +35,14 @@ Repl.it
 
 ## 檔案架構
 
+![](<.gitbook/assets/image (133).png>)
 
+* `main.py`: Python主程式，主要處理伺服器、網路網址、資料傳輸（Request & Response）
+* `styles.css`: css 檔案提供 html 檔造型
+* `index.html`: html 檔案提供介面骨架
+* `pyproject.toml` & `requirements.txt`: 紀錄安裝的套件
 
-* `main.py`: Python主程式，主要處理伺服器、網路、與資料流
-* `comments.py`: 我們為了方便，將留言的功能獨立到一個檔案中
-* `styles.css`: css檔案提供html檔造型
-* `index.html`: html檔案提供介面骨架
-
-## HTML複習
+## HTML 複習
 
 ![](<.gitbook/assets/image (123).png>)
 
@@ -59,17 +59,15 @@ Repl.it
 
 ## CSS
 
-不特別介紹，大致上就是可以改變網頁造型的東西
+大致上就是可以改變網頁造型的東西（顏色、字型、寬度高度等）
 
 ### 練習
 
-* body: 把background, color改成自己喜歡的顏色
+* body: 把 background, color 改成自己喜歡的顏色
 
 ## Python
 
 引入一些需要的函數庫，如 FastAPI 可以幫我們處理伺服器的東東，random 可以幫我們生成隨機答案
-
-
 
 ## 網址結構
 
@@ -94,16 +92,16 @@ Repl.it
 ### 練習
 
 * 改變網址來造訪以上路徑
-* 改變num query參數來猜數字
+* 改變 num 這個 query 參數來猜數字
 
 ## 網路溝通方法：HTTP
 
 我們跟伺服器請求（Request），伺服器給我們回應（Response）
 
-今天介紹以下兩種請求（Request）：
+今天介紹以下兩種請求方式（Request Method）：
 
-* 取得：GET，一般我們透過瀏覽器輸入網址就是GET
-* 新增：POST
+* 取得：GET，一般我們透過瀏覽器輸入網址就是 GET
+* 新增：POST，通常是表單，或是要利用程式來送出，不可透過瀏覽器輸入網址
 
 舉例來說：
 
@@ -114,6 +112,8 @@ Repl.it
 
 ### 取得留言：`GET /comments`
 
+![](<.gitbook/assets/image (121).png>)
+
 #### 回應代碼（Response Code）
 
 * 200 代表成功
@@ -122,22 +122,20 @@ Repl.it
 
 不同於之前是取得html，其實伺服器也可以只給我們文字資料，也就是以類似list + dict的形式回傳
 
-![](<.gitbook/assets/image (121).png>)
-
 ### 新增留言：`POST /comments`
+
+![](<.gitbook/assets/image (126) (1).png>)
 
 #### **請求參數 Request Body**
 
 新增當然需要一些參數，稱作 **Request Body**
 
-**Body 不同於前面的 Query，Query是公開的在網址上，Body是隱藏的，且GET不能用Body**
+**Body 不同於前面的 Query，Query 是公開的在網址上，Body 是隱藏的，且 GET 不能用 Body**
 
 例如：
 
 * author: 留言者
 * content: 留言內容
-
-![](<.gitbook/assets/image (126) (1).png>)
 
 **回應資料（Response Body）**
 
@@ -154,7 +152,7 @@ Repl.it
 
 ![](<.gitbook/assets/image (125).png>)
 
-![](<.gitbook/assets/image (133).png>)
+![](<.gitbook/assets/image (133) (1).png>)
 
 ## FastAPI
 
