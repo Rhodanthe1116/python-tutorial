@@ -4,7 +4,7 @@
 
 ![](<.gitbook/assets/image (120) (1).png>)
 
-* 請求Request
+* 請求 Request
 * 回應 Response
 
 ## 伺服器
