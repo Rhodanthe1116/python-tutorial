@@ -56,6 +56,7 @@ Repl.it
 
 * h1: 把「blablabla 的網站」改成自己的名字
 * a: 把「我的個人頁面」改成自己的連結
+* img: 加入`<img src="https://a.com/a.jpg" />`&#x20;
 
 ## CSS
 
