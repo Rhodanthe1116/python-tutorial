@@ -131,6 +131,8 @@ Repl.it
 
 新增當然需要一些參數，稱作 **Request Body**
 
+**通常會跟POST一起用，一樣會用表單或是程式來送出**
+
 **Body 不同於前面的 Query，Query 是公開的在網址上，Body 是隱藏的，且 GET 不能用 Body**
 
 例如：
