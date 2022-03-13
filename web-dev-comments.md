@@ -172,6 +172,9 @@ Repl.it
 }
 ```
 
+* 寫一個 GET /add?a=xxx\&b=xxx，可以回傳a+b的結果
+* 寫一個 GET /another-page，可以回傳另一個 html
+* 完成終極密碼
 * 完成 DELETE /comments/{id}
 
 #### 進階練習
