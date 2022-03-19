@@ -68,6 +68,12 @@ class User:
 
 ## 若有一類別B要繼承A，在B的建構子中要用以下哪個語法來調用父類別的建構子？
 
+```python
+class B(A):
+    def __init__(self):
+        ...... # 調用父類別的建構子
+```
+
 1. self.\_\_init\_\_()
 2. parent.\_\_init\_\_(self)
 3. B.\_\_init\_\_()
