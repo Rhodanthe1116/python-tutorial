@@ -59,7 +59,7 @@ print(a ^ b)
 
 1. dictionary內的key可以重複，也就是一個key可以對應到不同的value
 2. dictionary跟set一樣，不會按照key的大小排序（無序）
-3. dictionary可以用索引值存取
+3. dictionary可以用key存取，如d\["key"]
 4. dictionary可以用in語法來確認key是否存在
 
 1
